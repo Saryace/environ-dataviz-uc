@@ -11,7 +11,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/Saryace/quarto-course-website-template
+        href: https://github.com/Saryace/environ-dataviz-uc
         text: GitHub
     style: docked
     contents:

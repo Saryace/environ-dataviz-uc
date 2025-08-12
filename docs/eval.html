@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Visualización y Análisis de Datos Medioambientales - AGP3141 - Evaluación Final</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./eval.html">Evaluación-Final</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Visualización y Análisis de Datos Medioambientales</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/Pakillo/quarto-course-website-template" rel="" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./calendario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Calendario</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Clases</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eval.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Evaluación-Final</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#evalución-final" id="toc-evalución-final" class="nav-link active" data-scroll-target="#evalución-final">📑 Evalución Final</a></li>
+  <li><a href="#integridad-académica-y-código-de-honor" id="toc-integridad-académica-y-código-de-honor" class="nav-link" data-scroll-target="#integridad-académica-y-código-de-honor">🧭 Integridad Académica y Código de Honor</a></li>
+  <li><a href="#objetivo-final" id="toc-objetivo-final" class="nav-link" data-scroll-target="#objetivo-final">🎯 Objetivo Final</a></li>
+  <li><a href="#trabajo-en-parejas-o-grupos-política-de-colaboración" id="toc-trabajo-en-parejas-o-grupos-política-de-colaboración" class="nav-link" data-scroll-target="#trabajo-en-parejas-o-grupos-política-de-colaboración">👥 Trabajo en parejas o grupos : Política de colaboración</a></li>
+  <li><a href="#rúbrica-general-de-evaluación-final" id="toc-rúbrica-general-de-evaluación-final" class="nav-link" data-scroll-target="#rúbrica-general-de-evaluación-final">🧪 Rúbrica general de evaluación final</a>
+  <ul class="collapse">
+  <li><a href="#rúbrica-de-evaluación" id="toc-rúbrica-de-evaluación" class="nav-link" data-scroll-target="#rúbrica-de-evaluación">📝 Rúbrica de Evaluación</a></li>
+  <li><a href="#rúbrica-detallada" id="toc-rúbrica-detallada" class="nav-link" data-scroll-target="#rúbrica-detallada">📝 Rúbrica detallada</a></li>
+  </ul></li>
+  <li><a href="#uso-de-ia-generativa" id="toc-uso-de-ia-generativa" class="nav-link" data-scroll-target="#uso-de-ia-generativa">🤖 Uso de IA generativa 🤖</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AGP3141 - Evaluación Final</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="evalución-final" class="level2">
+<h2 class="anchored" data-anchor-id="evalución-final">📑 Evalución Final</h2>
+<p>Para la aprobación del curso, se evaluará un projecto final que se detalla a continuación + cumplir con las actividades semanales exitosamente. La evaluación del <strong>proyecto final equivale al 75% del curso</strong>, y el <strong>25% restante depente de las entregas a tiempo de las actividades semanales</strong>. Se agendarán 12 actividades que serán entregadas vía foros en CANVAS UC.</p>
+<hr>
+</section>
+<section id="integridad-académica-y-código-de-honor" class="level2">
+<h2 class="anchored" data-anchor-id="integridad-académica-y-código-de-honor">🧭 Integridad Académica y Código de Honor</h2>
+<p>La UC tiene un compromiso con la cultura de respeto e integridad. Quienes participen de este curso se adscriben al <a href="https://www.uc.cl/codigo-de-honor/"><strong>Código de Honor UC</strong></a> y se comprometen con la <strong>veracidad, confianza, respeto, justicia, responsabilidad y honestidad</strong> de todo su trabajo académico.</p>
+<hr>
+</section>
+<section id="objetivo-final" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo-final">🎯 Objetivo Final</h2>
+<p>El trabajo final del curso tiene objetivo claro: <em>¿Qué historia puedes contar con los datos que usarás en tu tesis/projecto personal/desafío?</em>. Entendemos que por privacidad o falta de datos no puedas presentar exactamente lo que tienes en mente, pero la idea es acercarse a lo más cercano posible</p>
+<hr>
+</section>
+<section id="trabajo-en-parejas-o-grupos-política-de-colaboración" class="level2">
+<h2 class="anchored" data-anchor-id="trabajo-en-parejas-o-grupos-política-de-colaboración">👥 Trabajo en parejas o grupos : Política de colaboración</h2>
+<p>Se puede en parejas o grupos para las etapas de recopilación de datos y diseño de un dataset ordenado. Si lo haces, debes <strong>indicarlo</strong> durante las entregas semanales y entrega final. Sin embargo, cada uno de los estudiantes debe completar su propio análisis de datos y visualización. Esto garantiza que el análisis exploratorio y la narración y contexto de los datos sean únicos para cada uno.</p>
+<hr>
+</section>
+<section id="rúbrica-general-de-evaluación-final" class="level2">
+<h2 class="anchored" data-anchor-id="rúbrica-general-de-evaluación-final">🧪 Rúbrica general de evaluación final</h2>
+<p>Cada uno de los siguientes puntos (100%) se evaluarán con una escala de 100 puntos. La rúbrica general es:</p>
+<section id="rúbrica-de-evaluación" class="level3">
+<h3 class="anchored" data-anchor-id="rúbrica-de-evaluación">📝 Rúbrica de Evaluación</h3>
+<table class="table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 36%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nota</th>
+<th>Nivel</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&lt;35</td>
+<td>Insuficiente</td>
+<td>Trabajo pobre que demuestra escaso dominio del tema. Objetivos poco claros o mal definidos. Uso limitado de herramientas presentadas en la clase. Resultados poco relevantes. Presentación confusa o desordenada.</td>
+</tr>
+<tr class="even">
+<td>36 - 59</td>
+<td>Insuficiente pero mejorable</td>
+<td>Trabajo insuficiente que puede ser mejorado con feedback del profesor y ayudante.</td>
+</tr>
+<tr class="odd">
+<td>59 - 85</td>
+<td>Buen trabajo</td>
+<td>Trabajo de buena calidad, que ofrece hallazgos interesante, pero esperables. Básico pero adecuado de herramientas, con evidencia parcial de autoaprendizaje personal. Evidencia leve de pensamiento crítico y aprendizaje destacable. Presentación regular</td>
+</tr>
+<tr class="even">
+<td>86 &lt; más</td>
+<td>Excelente</td>
+<td>Trabajo destacable, que ofrece hallazgos relevantes, sorprendentes o novedosos. Uso sofisticado y pertinente de herramientas, con evidencia de un autoaprendizaje personal. Evidencia de pensamiento crítico y aprendizaje destacable. Presentación muy clara y profesional</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="rúbrica-detallada" class="level3">
+<h3 class="anchored" data-anchor-id="rúbrica-detallada">📝 Rúbrica detallada</h3>
+<ul>
+<li><p>🧹<strong>Orden en el manejo de datos</strong>: Se evaluará el orden de las carpetas, el flujo de trabajo, el uso consistente de nomenclatura, etc <strong>(20%)</strong></p></li>
+<li><p>💻 <strong>Reproducibilidad</strong>: Uso de GitHub, Google Colab, Quarto, etc. Durante el curso veremos las herramientas más comunes, pero parte del auto-aprendizaje es probar y usar herramientas fuera de las presentadas <strong>(20%)</strong></p></li>
+<li><p>🗺️ <strong>Analisis Exploratorio</strong> se requieren preguntas exploratorias sobre tus datos. Este curso <strong>no es de estadística</strong> (puedes usarla), pero se evaluará el análisis, manejo y visualización de datos principalmente. La idea es estudiar patrones, tendencias que puedan ayudar a explorar los datos <strong>(30%)</strong></p></li>
+<li><p>📊 <strong>Audiencia y visualización de datos</strong>: Crear un sitio web narrativo (reproducible) para una audiencia general. Debe ser una página o notebook única que detalle tres hallazgos clave del análisis, usando gráficos y tablas <strong>(30%)</strong></p></li>
+</ul>
+<p>El curso tiene una <strong>exigencia equivalente al 60%</strong>. Para obtener un 4.0 de nota en la evaluación final de 100 puntos en total, se deben alcanzar los 60 puntos. Para obtener un 4.0 en las entregas semanales, se deben presentar exitosamente 8 entregas.</p>
+<hr>
+</section>
+</section>
+<section id="uso-de-ia-generativa" class="level1">
+<h1>🤖 Uso de IA generativa 🤖</h1>
+<p>Este curso autorizada el uso de IA generativa. Se pueden utilizar herramientas de IA, incluso en las actividades semanales y entrega final. Consideramos la IA como una herramienta para mejorar el aprendizaje de programación, pero <strong>no para sustituirlo</strong>. En cada entrega y en el proyecto final se debe reportar el uso de la IA (traducción, mejora de código, organización de información, etc.)</p>
+<p>Al evaluar, se buscarán pruebas de comprensión de los concepto, si y puedes efectivamente explicar tus código, relato, etc.. Si realizas un trabajo avanzado o 100% generativo pero no se relaciona con el material del curso, no participas en los foros o no muestras tu razonamiento lógico, no obtendrás buena nota o incluso serás <strong>reprobado inmediatamente por falta al código de honor</strong>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

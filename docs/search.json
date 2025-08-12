@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "",
+    "text": "Código: AGP3141\nNombre del curso: Visualización y Análisis de Datos Medioambientales\nCréditos: 10\nMódulos: 02\nCarácter: Optativo\nTipo: Taller\nSistema de Calificación: Estándar\nNivel Formativo: Magíster\nPalabras Clave: Análisis de datos, programación, visualización de datos"
+  },
+  {
+    "objectID": "index.html#integridad-académica-y-código-de-honor",
+    "href": "index.html#integridad-académica-y-código-de-honor",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "🧭 Integridad Académica y Código de Honor",
+    "text": "🧭 Integridad Académica y Código de Honor\nLa UC tiene un compromiso con la cultura de respeto e integridad. Quienes participen de este curso se adscriben al Código de Honor UC y se comprometen con la veracidad, confianza, respeto, justicia, responsabilidad y honestidad de todo su trabajo académico."
+  },
+  {
+    "objectID": "index.html#introducción-a-r-y-git",
+    "href": "index.html#introducción-a-r-y-git",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "1. Introducción a R y Git",
+    "text": "1. Introducción a R y Git\n\nIntroducción al control de versiones con Git y GitHub\n\nPrincipios de datos ordenados, organización de archivos, proyectos en RStudio\n\nTipos de datos, objetos, lectura y escritura de archivos en R\n\nIntroducción al paquete tidyverse"
+  },
+  {
+    "objectID": "index.html#visualización",
+    "href": "index.html#visualización",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "2. Visualización",
+    "text": "2. Visualización\n\nIntroducción a R Markdown / Quarto\n\nggplot2: gráficos básicos, geom_*, personalización, anotaciones, gráficos múltiples"
+  },
+  {
+    "objectID": "index.html#manejo-de-datos-medioambientales",
+    "href": "index.html#manejo-de-datos-medioambientales",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "3. Manejo de Datos Medioambientales",
+    "text": "3. Manejo de Datos Medioambientales\n\nFechas y tiempos con lubridate\n\nExploración y conteo de datos, uniones\n\nManejo de texto en R"
+  },
+  {
+    "objectID": "index.html#flujos-de-trabajo-y-programación",
+    "href": "index.html#flujos-de-trabajo-y-programación",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "4. Flujos de Trabajo y Programación",
+    "text": "4. Flujos de Trabajo y Programación\n\nProgramación funcional y modelos lineales\n\nEstructuras de control: condicionales y bucles"
+  },
+  {
+    "objectID": "index.html#datos-geoespaciales",
+    "href": "index.html#datos-geoespaciales",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "5. Datos Geoespaciales",
+    "text": "5. Datos Geoespaciales\n\nIntroducción a datos geoespaciales en R\n\nIntroducción a Python para usuarios de R: fundamentos y comparación de sintaxis con pandas"
+  },
+  {
+    "objectID": "index.html#selecciona-año-académico-semestre",
+    "href": "index.html#selecciona-año-académico-semestre",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "📆 Selecciona Año Académico / Semestre",
+    "text": "📆 Selecciona Año Académico / Semestre\n 2022/23"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Calendario",
+    "section": "",
+    "text": "Semana\nFecha\nTema Principal\nActividad Semanal\nObservaciones\n\n\n\n\n1\n15 ago\nPresentación del curso. Introducción a R y RStudio\nSetup de entorno. Diagnóstico inicial\n—\n\n\n2\n22 ago\nIntroducción a Git y GitHub\nSubir proyecto a GitHub\n—\n\n\n3\n29 ago\nTidy data y proyectos en RStudio\nReorganizar carpeta de proyecto con here()\n—\n\n\n4\n5 sept\nLectura/escritura y exploración de datos\nImportar y explorar CSV y Excel\n—\n\n\n5\n12 sept\nIntroducción a tidyverse: dplyr, readr, tibble\nTransformaciones con dplyr\n—\n\n\n6\n19 sept\nFeriado: Fiestas Patrias\n—\nNo hay clase\n\n\n7\n26 sept\nggplot2 I: básicos y geom_*\nCrear gráfico de dispersión y barras\n—\n\n\n8\n3 oct\nggplot2 II: personalización y facetas\nCrear paneles (facet_wrap)\n—\n\n\n9\n10 oct\nManejo de fechas y unión de datos\nProcesar fechas con lubridate, unir tablas\n—\n\n\n10\n17 oct\nManejo de texto y limpieza\nLimpiar variables categóricas\n—\n\n\n11\n24 oct\nModelos lineales y programación funcional\nAjustar modelo y mapear con purrr\n—\n\n\n12\n31 oct\nFeriado: Día Iglesias Evangélicas\n—\nNo hay clase\n\n\n13\n7 nov\nEstructuras de control: condicionales y bucles\nSimulación con loops y condiciones\n—\n\n\n14\n14 nov\nIntroducción a datos geoespaciales en R\nMapas con sf y ggplot2\n—\n\n\n15\n21 nov\nIntroducción a Python para usuarios de R\nReescribir script en pandas\n—\n\n\n16\n28 nov\nPresentaciones finales y cierre del curso\nPresentación y entrega de informe final\nÚltimo día de clases según calendario UC"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Datasets\nSlides"
+  },
+  {
+    "objectID": "schedule.html#cronograma-de-clases",
+    "href": "schedule.html#cronograma-de-clases",
+    "title": "Calendario",
+    "section": "",
+    "text": "Semana\nFecha\nTema Principal\nActividad Semanal\nObservaciones\n\n\n\n\n1\n15 ago\nPresentación del curso. Introducción a R y RStudio\nSetup de entorno. Diagnóstico inicial\n—\n\n\n2\n22 ago\nIntroducción a Git y GitHub\nSubir proyecto a GitHub\n—\n\n\n3\n29 ago\nTidy data y proyectos en RStudio\nReorganizar carpeta de proyecto con here()\n—\n\n\n4\n5 sept\nLectura/escritura y exploración de datos\nImportar y explorar CSV y Excel\n—\n\n\n5\n12 sept\nIntroducción a tidyverse: dplyr, readr, tibble\nTransformaciones con dplyr\n—\n\n\n6\n19 sept\nFeriado: Fiestas Patrias\n—\nNo hay clase\n\n\n7\n26 sept\nggplot2 I: básicos y geom_*\nCrear gráfico de dispersión y barras\n—\n\n\n8\n3 oct\nggplot2 II: personalización y facetas\nCrear paneles (facet_wrap)\n—\n\n\n9\n10 oct\nManejo de fechas y unión de datos\nProcesar fechas con lubridate, unir tablas\n—\n\n\n10\n17 oct\nManejo de texto y limpieza\nLimpiar variables categóricas\n—\n\n\n11\n24 oct\nModelos lineales y programación funcional\nAjustar modelo y mapear con purrr\n—\n\n\n12\n31 oct\nFeriado: Día Iglesias Evangélicas\n—\nNo hay clase\n\n\n13\n7 nov\nEstructuras de control: condicionales y bucles\nSimulación con loops y condiciones\n—\n\n\n14\n14 nov\nIntroducción a datos geoespaciales en R\nMapas con sf y ggplot2\n—\n\n\n15\n21 nov\nIntroducción a Python para usuarios de R\nReescribir script en pandas\n—\n\n\n16\n28 nov\nPresentaciones finales y cierre del curso\nPresentación y entrega de informe final\nÚltimo día de clases según calendario UC"
+  },
+  {
+    "objectID": "calendario.html",
+    "href": "calendario.html",
+    "title": "Calendario",
+    "section": "",
+    "text": "Semana\nFecha\nTema Principal\nActividad Semanal\nObservaciones\n\n\n\n\n1\n15 ago\nPresentación del curso. Introducción a R y RStudio\nInstalación de R/Rstudio. Interés por tomar el curso.\nNo hay clase presencial\nVer Videos en Canvas UC\n\n\n2\n22 ago\nIntroducció a Git y GitHub\nCrear cuenta de Github. Crear repositorio.\nClase online\n\n\n3\n29 ago\nTidy data y proyectos en RStudio\nProponer orden de carpetas / readme / flujo de trabajo.\nIdentificar desafíos en los datos seleccionados\nClase presencial\n\n\n4\n5 sept\nLectura/escritura y exploración de datos\nImportar y explorar CSV y Excel.\nDefinir dataset trabajo final.\nClase presencial\n\n\n5\n12 sept\nIntroducción a tidyverse: dplyr, readr, tibble\nMostrar flujo de trabajo inicial (librerias, procesamiento datos crudos)\nClase presencial\n\n\n6\n19 sept\nFeriado: Fiestas Patrias\n—\nNo hay clases ni actividades semanales\n\n\n7\n26 sept\nggplot2 I: básicos y geom_*\nCrear primer gráfico (\nClase presencial\n\n\n8\n3 oct\nggplot2 II: personalización y facetas\nCrear segundo gráfico\n—\n\n\n9\n10 oct\nManejo de fechas y unión de datos\nUsar dataset de serie de tiempo.\nDesafío.\n—\n\n\n10\n17 oct\nManejo de texto y limpieza\nUsar dataset de texto.\nDesafío.\n—\n\n\n11\n24 oct\nModelos lineales y programación funcional\nEntrega de función personalizada\nDesafío\n—\n\n\n12\n31 oct\nFeriado: Día Iglesias Evangélicas\n—\nNo hay clases presenciales\n\n\n13\n7 nov\nEstructuras de control: condicionales y bucles\nLoops y condicionales.\nUsando entrega semanal, desafío condicionales.\n—\n\n\n14\n14 nov\nIntroducción a datos geoespaciales en R\nMapa con sf y ggplot2\n—\n\n\n15\n21 nov\nIntroducción a Python para usuarios de R\nReescribir script de R en pandas\n—\n\n\n16\n28 nov\nPresentaciones finales y cierre del curso\nPresentación y entrega de informe final\nÚltimo día de clases según calendario UC"
+  },
+  {
+    "objectID": "calendario.html#cronograma-de-clases",
+    "href": "calendario.html#cronograma-de-clases",
+    "title": "Calendario",
+    "section": "",
+    "text": "Semana\nFecha\nTema Principal\nActividad Semanal\nObservaciones\n\n\n\n\n1\n15 ago\nPresentación del curso. Introducción a R y RStudio\nInstalación de R/Rstudio. Interés por tomar el curso.\nNo hay clase presencial\nVer Videos en Canvas UC\n\n\n2\n22 ago\nIntroducció a Git y GitHub\nCrear cuenta de Github. Crear repositorio.\nClase online\n\n\n3\n29 ago\nTidy data y proyectos en RStudio\nProponer orden de carpetas / readme / flujo de trabajo.\nIdentificar desafíos en los datos seleccionados\nClase presencial\n\n\n4\n5 sept\nLectura/escritura y exploración de datos\nImportar y explorar CSV y Excel.\nDefinir dataset trabajo final.\nClase presencial\n\n\n5\n12 sept\nIntroducción a tidyverse: dplyr, readr, tibble\nMostrar flujo de trabajo inicial (librerias, procesamiento datos crudos)\nClase presencial\n\n\n6\n19 sept\nFeriado: Fiestas Patrias\n—\nNo hay clases ni actividades semanales\n\n\n7\n26 sept\nggplot2 I: básicos y geom_*\nCrear primer gráfico (\nClase presencial\n\n\n8\n3 oct\nggplot2 II: personalización y facetas\nCrear segundo gráfico\n—\n\n\n9\n10 oct\nManejo de fechas y unión de datos\nUsar dataset de serie de tiempo.\nDesafío.\n—\n\n\n10\n17 oct\nManejo de texto y limpieza\nUsar dataset de texto.\nDesafío.\n—\n\n\n11\n24 oct\nModelos lineales y programación funcional\nEntrega de función personalizada\nDesafío\n—\n\n\n12\n31 oct\nFeriado: Día Iglesias Evangélicas\n—\nNo hay clases presenciales\n\n\n13\n7 nov\nEstructuras de control: condicionales y bucles\nLoops y condicionales.\nUsando entrega semanal, desafío condicionales.\n—\n\n\n14\n14 nov\nIntroducción a datos geoespaciales en R\nMapa con sf y ggplot2\n—\n\n\n15\n21 nov\nIntroducción a Python para usuarios de R\nReescribir script de R en pandas\n—\n\n\n16\n28 nov\nPresentaciones finales y cierre del curso\nPresentación y entrega de informe final\nÚltimo día de clases según calendario UC"
+  },
+  {
+    "objectID": "eval.html",
+    "href": "eval.html",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "",
+    "text": "Para la aprobación del curso, se evaluará un projecto final que se detalla a continuación + cumplir con las actividades semanales exitosamente. La evaluación del proyecto final equivale al 75% del curso, y el 25% restante depente de las entregas a tiempo de las actividades semanales. Se agendarán 12 actividades que serán entregadas vía foros en CANVAS UC."
+  },
+  {
+    "objectID": "eval.html#integridad-académica-y-código-de-honor",
+    "href": "eval.html#integridad-académica-y-código-de-honor",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "🧭 Integridad Académica y Código de Honor",
+    "text": "🧭 Integridad Académica y Código de Honor\nLa UC tiene un compromiso con la cultura de respeto e integridad. Quienes participen de este curso se adscriben al Código de Honor UC y se comprometen con la veracidad, confianza, respeto, justicia, responsabilidad y honestidad de todo su trabajo académico."
+  },
+  {
+    "objectID": "clases.html",
+    "href": "clases.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Semana\nTema\nSlides\nDatos\nReferencias\n\n\n\n\n\n1\nPresentación del curso. Introducción a R y RStudio\n📄 intro\n—\nVideos en Canvas\n\n\n\n2\nIntroducción a Git, GitHub e investigación reproducible\n📄 github-basico\n—\nHappy Git with R\n\n\n\n3\nTidy data y proyectos en RStudio\n📄 tidy-data\nPalmer Penguins\nR4DS\n\n\n\n4\nLectura/escritura y exploración de datos\n📄 formatos\nAgrometeorologia\nR4DS\n\n\n\n5\nIntroducción a tidyverse: dplyr, readr, tibble\n📄 tidyverse-basico\nEDI Data Portal\nR4DS\n\n\n\n6\nFeriado: Fiestas Patrias\n—\n—\n—\n\n\n\n7\nggplot2 I: básicos y geom_*\n📄 ggplot2-A\n—\nModern Data Visualization with R\n\n\n\n8\nggplot2 II: personalización y facetas\n📄 ggplot2-B\n—\nModern Data Visualization with R\n\n\n\n9\nManejo de fechas y unión de datos\n📄 fechas-join\n—\nR4DS\n\n\n\n10\nManejo de texto y limpieza\n📄 texto\n—\n—\n\n\n\n11\nModelos lineales y programación funcional\n📄 purrr-reg\n—\n—\n\n\n\n12\nFeriado: Día Iglesias Evangélicas\n—\n—\n—\n\n\n\n13\nCondicionales y bucles\n📄 loop\n—\n—\n\n\n\n14\nIntroducción a datos geoespaciales en R\n📄 geoespacial-R\n—\n—\n\n\n\n15\nIntroducción a Python para usuarios de R\n📄 r-python\n—\n—\n\n\n\n16\nPresentaciones finales y cierre del curso\n—\nDataset final\n—\n—"
+  },
+  {
+    "objectID": "calendario.html#asistencia-a-clases",
+    "href": "calendario.html#asistencia-a-clases",
+    "title": "Calendario",
+    "section": "📆 Asistencia a clases",
+    "text": "📆 Asistencia a clases\nLa asistencia a clases no es obligatoria, pero es altamente recomendado asistir al menos al primer modulo de cada viernes. Durante el primer módulo se concentrará la mayor parte del contenido de la clase. En la segunda parte se responderán preguntas, se realizarán actividades complementarias o se dará tiempo seguro para avanzar en las actividades semanales. Este curso tiene 10 créditos, por lo que para aprobar, se debe trabajar toda la semana complementariamente a los módulos de clase."
+  },
+  {
+    "objectID": "index.html#descripción-del-curso",
+    "href": "index.html#descripción-del-curso",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "",
+    "text": "Código: AGP3141\nNombre del curso: Visualización y Análisis de Datos Medioambientales\nCréditos: 10\nMódulos: 02\nCarácter: Optativo\nTipo: Taller\nSistema de Calificación: Estándar\nNivel Formativo: Magíster\nPalabras Clave: Análisis de datos, programación, visualización de datos"
+  },
+  {
+    "objectID": "index.html#equipo-docente",
+    "href": "index.html#equipo-docente",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "👩🏽‍🏫 Equipo Docente",
+    "text": "👩🏽‍🏫 Equipo Docente\n\nProfesoraAyudante\n\n\nSara Acevedo\nProfesora Asistente UC Facultad de Agronomía y Sistemas Naturales\n📧 Mensajes/correo por Canvas UC\n\n\nAgustín Coddou Estudiante Magíster RRNN UC 📧 Mensajes/correo por Canvas UC"
+  },
+  {
+    "objectID": "index.html#resultados-de-aprendizaje",
+    "href": "index.html#resultados-de-aprendizaje",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "🎯 Resultados de Aprendizaje",
+    "text": "🎯 Resultados de Aprendizaje\nAl finalizar el curso, los y las estudiantes serán capaces de:\n\nDistinguir los principios básicos del manejo de datos medioambientales en R, incluyendo estructuras de datos, funciones clave y paquetes del entorno tidyverse.\nAplicar flujos de trabajo programados en R para combinar, limpiar y transformar datos ambientales de diversas fuentes de manera eficiente y reproducible.\nAnalizar conjuntos de datos reales para identificar patrones, inconsistencias o errores, utilizando técnicas reproducibles."
+  },
+  {
+    "objectID": "index.html#contenidos-del-curso",
+    "href": "index.html#contenidos-del-curso",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "📚 Contenidos del Curso",
+    "text": "📚 Contenidos del Curso"
+  },
+  {
+    "objectID": "index.html#metodología",
+    "href": "index.html#metodología",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "🧪 Metodología",
+    "text": "🧪 Metodología\n\nClases expositivas\n\nLaboratorios prácticos\n\nEstudio de casos\n\nAprendizaje basado en problemas reales\n\nLos contenidos semanales son acumulativos, por lo que el curso presenta una continuidad, se recomienda asistir a clases y participar en los foros de Canvas UC."
+  },
+  {
+    "objectID": "index.html#uso-de-ia-generativa",
+    "href": "index.html#uso-de-ia-generativa",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "🤖 Uso de IA generativa 🤖",
+    "text": "🤖 Uso de IA generativa 🤖\nEn este curso está autorizada el uso de IA generativa. Se pueden utilizar herramientas de IA, incluso en las actividades semanales y entrega final. Consideramos la IA como una herramienta para mejorar el aprendizaje de programación, pero no para sustituirlo. En cada entrega y en el proyecto final se debe reportar el uso de la IA (traducción, mejora de código, organización de información, etc.)\nAl evaluar, se buscarán pruebas de comprensión de los conceptos, y si puedes efectivamente explicar tus códigos, relato, etc… Si realizas un trabajo avanzado/complejo o 100% generativo que no se relaciona con el material del curso, no participas en los foros o no muestras tu razonamiento lógico, no obtendrás buena nota o incluso serás reprobado inmediatamente por falta al código de honor."
+  },
+  {
+    "objectID": "index.html#clases-presenciales---online",
+    "href": "index.html#clases-presenciales---online",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "📍 Clases presenciales - Online",
+    "text": "📍 Clases presenciales - Online\n📆 Viernes 11:00 – 13:30\n📍 FT-103, Campus San Joaquín"
+  },
+  {
+    "objectID": "index.html#office-hours-presenciales---online",
+    "href": "index.html#office-hours-presenciales---online",
+    "title": "AGP3141 - Visualización y Análisis de Datos Medioambientales",
+    "section": "📍 Office Hours presenciales - Online",
+    "text": "📍 Office Hours presenciales - Online\n📧 Consultas por correo idealmente los lunes durante el día 📆 Lunes 12:00 – 13:00 ó Lunes 15:00 – 16:00\n📍 FASN, Campus San Joaquín 📧 Mensajes/correo por Canvas UC para agendar"
+  },
+  {
+    "objectID": "eval.html#evalución-final",
+    "href": "eval.html#evalución-final",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "",
+    "text": "Para la aprobación del curso, se evaluará un projecto final que se detalla a continuación + cumplir con las actividades semanales exitosamente. La evaluación del proyecto final equivale al 75% del curso, y el 25% restante depente de las entregas a tiempo de las actividades semanales. Se agendarán 12 actividades que serán entregadas vía foros en CANVAS UC."
+  },
+  {
+    "objectID": "eval.html#objetivo-final",
+    "href": "eval.html#objetivo-final",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "🎯 Objetivo Final",
+    "text": "🎯 Objetivo Final\nEl trabajo final del curso tiene objetivo claro: ¿Qué historia puedes contar con los datos que usarás en tu tesis/projecto personal/desafío?. Entendemos que por privacidad o falta de datos no puedas presentar exactamente lo que tienes en mente, pero la idea es acercarse a lo más cercano posible"
+  },
+  {
+    "objectID": "eval.html#trabajo-en-parejas-o-grupos-política-de-colaboración",
+    "href": "eval.html#trabajo-en-parejas-o-grupos-política-de-colaboración",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "👥 Trabajo en parejas o grupos : Política de colaboración",
+    "text": "👥 Trabajo en parejas o grupos : Política de colaboración\nSe puede en parejas o grupos para las etapas de recopilación de datos y diseño de un dataset ordenado. Si lo haces, debes indicarlo durante las entregas semanales y entrega final. Sin embargo, cada uno de los estudiantes debe completar su propio análisis de datos y visualización. Esto garantiza que el análisis exploratorio y la narración y contexto de los datos sean únicos para cada uno."
+  },
+  {
+    "objectID": "eval.html#rúbrica-general-de-evaluación",
+    "href": "eval.html#rúbrica-general-de-evaluación",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "🧪 Rúbrica general de evaluación",
+    "text": "🧪 Rúbrica general de evaluación\nCada uno de los siguientes puntos (100%) se evaluarán con una escala de 100 puntos. La rúbrica general es:\n\n📝 Rúbrica de Evaluación\n\n\n\n\n\n\n\n\nNota\nNivel\nDescripción\n\n\n\n\n&lt;35\nInsuficiente / Regular\nTrabajo pobre que demuestra escaso dominio del tema. Objetivos poco claros o mal definidos. Uso limitado de herramientas presentadas en la clase. Resultados poco relevantes. Presentación confusa o desordenada.\n\n\n36 - 86\nBien\nTrabajo sólido con objetivos bien planteados. Uso adecuado de herramientas presentadas en clase. Presentación clara y coherente.\n\n\n86 &lt; más\nExcelente\nTrabajo destacable, que ofrece hallazgos relevantes, sorprendentes o novedosos. Uso sofisticado y pertinente de herramientas, con evidencia de un autoaprendizaje personal. Evidencia de pensamiento crítico y aprendizaje destacable. Presentación muy clara y profesional\n\n\n\n\n🧹Orden en el manejo de datos: Se evaluará el orden de las carpetas, el flujo de trabajo, el uso consistente de nomenclatura, etc (20%)\n💻 Reproducibilidad: Uso de GitHub, Google Colab, Quarto, etc. Durante el curso veremos las herramientas más comunes, pero parte del auto-aprendizaje es probar y usar herramientas fuera de las presentadas (20%)\n🗺️ Analisis Exploratorio se requieren preguntas exploratorias sobre tus datos. Este curso no es de estadística (puedes usarla), pero se evaluará el análisis, manejo y visualización de datos principalmente. La idea es estudiar patrones, tendencias que puedan ayudar a explorar los datos (30%)\n📊 Audiencia y visualización de datos: Crear un sitio web narrativo (reproducible) para una audiencia general. Debe ser una página o notebook única que detalle tres hallazgos clave del análisis, usando gráficos y tablas (30%)\n\nEl curso tiene una exigencia equivalente al 60%. Para obtener un 4.0 de nota en la evaluación final de 100 puntos en total, se deben alcanzar los 60 puntos. Para obtener un 4.0 en las entregas semanales, se deben presentar exitosamente 8 entregas."
+  },
+  {
+    "objectID": "eval.html#rúbrica-general-de-evaluación-final",
+    "href": "eval.html#rúbrica-general-de-evaluación-final",
+    "title": "AGP3141 - Evaluación Final",
+    "section": "🧪 Rúbrica general de evaluación final",
+    "text": "🧪 Rúbrica general de evaluación final\nCada uno de los siguientes puntos (100%) se evaluarán con una escala de 100 puntos. La rúbrica general es:\n\n📝 Rúbrica de Evaluación\n\n\n\n\n\n\n\n\nNota\nNivel\nDescripción\n\n\n\n\n&lt;35\nInsuficiente\nTrabajo pobre que demuestra escaso dominio del tema. Objetivos poco claros o mal definidos. Uso limitado de herramientas presentadas en la clase. Resultados poco relevantes. Presentación confusa o desordenada.\n\n\n36 - 59\nInsuficiente pero mejorable\nTrabajo insuficiente que puede ser mejorado con feedback del profesor y ayudante.\n\n\n59 - 85\nBuen trabajo\nTrabajo de buena calidad, que ofrece hallazgos interesante, pero esperables. Básico pero adecuado de herramientas, con evidencia parcial de autoaprendizaje personal. Evidencia leve de pensamiento crítico y aprendizaje destacable. Presentación regular\n\n\n86 &lt; más\nExcelente\nTrabajo destacable, que ofrece hallazgos relevantes, sorprendentes o novedosos. Uso sofisticado y pertinente de herramientas, con evidencia de un autoaprendizaje personal. Evidencia de pensamiento crítico y aprendizaje destacable. Presentación muy clara y profesional\n\n\n\n\n\n📝 Rúbrica detallada\n\n🧹Orden en el manejo de datos: Se evaluará el orden de las carpetas, el flujo de trabajo, el uso consistente de nomenclatura, etc (20%)\n💻 Reproducibilidad: Uso de GitHub, Google Colab, Quarto, etc. Durante el curso veremos las herramientas más comunes, pero parte del auto-aprendizaje es probar y usar herramientas fuera de las presentadas (20%)\n🗺️ Analisis Exploratorio se requieren preguntas exploratorias sobre tus datos. Este curso no es de estadística (puedes usarla), pero se evaluará el análisis, manejo y visualización de datos principalmente. La idea es estudiar patrones, tendencias que puedan ayudar a explorar los datos (30%)\n📊 Audiencia y visualización de datos: Crear un sitio web narrativo (reproducible) para una audiencia general. Debe ser una página o notebook única que detalle tres hallazgos clave del análisis, usando gráficos y tablas (30%)\n\nEl curso tiene una exigencia equivalente al 60%. Para obtener un 4.0 de nota en la evaluación final de 100 puntos en total, se deben alcanzar los 60 puntos. Para obtener un 4.0 en las entregas semanales, se deben presentar exitosamente 8 entregas."
+  },
+  {
+    "objectID": "clases.html#calendario-del-curso-agp3141-segundo-semestre-2025",
+    "href": "clases.html#calendario-del-curso-agp3141-segundo-semestre-2025",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Semana\nTema\nSlides\nDatos\nReferencias\n\n\n\n\n\n1\nPresentación del curso. Introducción a R y RStudio\n📄 intro\n—\nVideos en Canvas\n\n\n\n2\nIntroducción a Git, GitHub e investigación reproducible\n📄 github-basico\n—\nHappy Git with R\n\n\n\n3\nTidy data y proyectos en RStudio\n📄 tidy-data\nPalmer Penguins\nR4DS\n\n\n\n4\nLectura/escritura y exploración de datos\n📄 formatos\nAgrometeorologia\nR4DS\n\n\n\n5\nIntroducción a tidyverse: dplyr, readr, tibble\n📄 tidyverse-basico\nEDI Data Portal\nR4DS\n\n\n\n6\nFeriado: Fiestas Patrias\n—\n—\n—\n\n\n\n7\nggplot2 I: básicos y geom_*\n📄 ggplot2-A\n—\nModern Data Visualization with R\n\n\n\n8\nggplot2 II: personalización y facetas\n📄 ggplot2-B\n—\nModern Data Visualization with R\n\n\n\n9\nManejo de fechas y unión de datos\n📄 fechas-join\n—\nR4DS\n\n\n\n10\nManejo de texto y limpieza\n📄 texto\n—\n—\n\n\n\n11\nModelos lineales y programación funcional\n📄 purrr-reg\n—\n—\n\n\n\n12\nFeriado: Día Iglesias Evangélicas\n—\n—\n—\n\n\n\n13\nCondicionales y bucles\n📄 loop\n—\n—\n\n\n\n14\nIntroducción a datos geoespaciales en R\n📄 geoespacial-R\n—\n—\n\n\n\n15\nIntroducción a Python para usuarios de R\n📄 r-python\n—\n—\n\n\n\n16\nPresentaciones finales y cierre del curso\n—\nDataset final\n—\n—"
+  }
+]

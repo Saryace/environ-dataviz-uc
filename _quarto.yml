@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Title"
+  title: "Visualización y Análisis de Datos Medioambientales"
   sidebar:
     background: primary
     # logo: "images/logo.png"
@@ -17,13 +17,12 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: schedule.qmd
-        text: Schedule
-      - href: materials.qmd
-        text: Materials
-      - href: https://github.com/Pakillo/quarto-course-website-template/discussions
-        text: Forum
-
+      - href: calendario.qmd
+        text: Calendario
+      - href: clases.qmd
+        text: Clases
+      - href: eval.qmd
+        text: Evaluación-Final
 format:
   html:
     theme: cosmo

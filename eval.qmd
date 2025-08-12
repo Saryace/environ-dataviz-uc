@@ -1,0 +1,60 @@
+---
+title: "AGP3141 - Evaluación Final"
+---
+
+## 📑 Evalución Final
+
+Para la aprobación del curso, se evaluará un projecto final que se detalla a continuación + cumplir con las actividades semanales exitosamente. La evaluación del **proyecto final equivale al 75% del curso**, y el **25% restante depente de las entregas a tiempo de las actividades semanales**. Se agendarán 12 actividades que serán entregadas vía foros en CANVAS UC.
+
+------------------------------------------------------------------------
+
+## 🧭 Integridad Académica y Código de Honor
+
+La UC tiene un compromiso con la cultura de respeto e integridad. Quienes participen de este curso se adscriben al [**Código de Honor UC**](https://www.uc.cl/codigo-de-honor/) y se comprometen con la **veracidad, confianza, respeto, justicia, responsabilidad y honestidad** de todo su trabajo académico.
+
+------------------------------------------------------------------------
+
+## 🎯 Objetivo Final
+
+El trabajo final del curso tiene objetivo claro: *¿Qué historia puedes contar con los datos que usarás en tu tesis/projecto personal/desafío?*. Entendemos que por privacidad o falta de datos no puedas presentar exactamente lo que tienes en mente, pero la idea es acercarse a lo más cercano posible
+
+------------------------------------------------------------------------
+
+## 👥 Trabajo en parejas o grupos : Política de colaboración
+
+Se puede en parejas o grupos para las etapas de recopilación de datos y diseño de un dataset ordenado. Si lo haces, debes **indicarlo** durante las entregas semanales y entrega final. Sin embargo, cada uno de los estudiantes debe completar su propio análisis de datos y visualización. Esto garantiza que el análisis exploratorio y la narración y contexto de los datos sean únicos para cada uno.
+
+------------------------------------------------------------------------
+
+## 🧪 Rúbrica general de evaluación final
+
+Cada uno de los siguientes puntos (100%) se evaluarán con una escala de 100 puntos. La rúbrica general es:
+
+### 📝 Rúbrica de Evaluación
+
+| Nota      | Nivel                       | Descripción                                                                                                                                                                                                                                                                 |
+|----------------------|---------------------------|------------------------|
+| \<35      | Insuficiente                | Trabajo pobre que demuestra escaso dominio del tema. Objetivos poco claros o mal definidos. Uso limitado de herramientas presentadas en la clase. Resultados poco relevantes. Presentación confusa o desordenada.                                                           |
+| 36 - 59   | Insuficiente pero mejorable | Trabajo insuficiente que puede ser mejorado con feedback del profesor y ayudante.                                                                                                                                                                                           |
+| 59 - 85 | Buen trabajo                   | Trabajo de buena calidad, que ofrece hallazgos interesante, pero esperables. Básico pero adecuado de herramientas, con evidencia parcial de autoaprendizaje personal. Evidencia leve de pensamiento crítico y aprendizaje destacable. Presentación regular |
+| 86 \< más | Excelente                   | Trabajo destacable, que ofrece hallazgos relevantes, sorprendentes o novedosos. Uso sofisticado y pertinente de herramientas, con evidencia de un autoaprendizaje personal. Evidencia de pensamiento crítico y aprendizaje destacable. Presentación muy clara y profesional |
+
+### 📝 Rúbrica detallada
+
+-   🧹**Orden en el manejo de datos**: Se evaluará el orden de las carpetas, el flujo de trabajo, el uso consistente de nomenclatura, etc **(20%)**
+
+-   💻 **Reproducibilidad**: Uso de GitHub, Google Colab, Quarto, etc. Durante el curso veremos las herramientas más comunes, pero parte del auto-aprendizaje es probar y usar herramientas fuera de las presentadas **(20%)**
+
+-   🗺️ **Analisis Exploratorio** se requieren preguntas exploratorias sobre tus datos. Este curso **no es de estadística** (puedes usarla), pero se evaluará el análisis, manejo y visualización de datos principalmente. La idea es estudiar patrones, tendencias que puedan ayudar a explorar los datos **(30%)**
+
+-   📊 **Audiencia y visualización de datos**: Crear un sitio web narrativo (reproducible) para una audiencia general. Debe ser una página o notebook única que detalle tres hallazgos clave del análisis, usando gráficos y tablas **(30%)**
+
+El curso tiene una **exigencia equivalente al 60%**. Para obtener un 4.0 de nota en la evaluación final de 100 puntos en total, se deben alcanzar los 60 puntos. Para obtener un 4.0 en las entregas semanales, se deben presentar exitosamente 8 entregas.
+
+------------------------------------------------------------------------
+
+# 🤖 Uso de IA generativa 🤖
+
+Este curso autorizada el uso de IA generativa. Se pueden utilizar herramientas de IA, incluso en las actividades semanales y entrega final. Consideramos la IA como una herramienta para mejorar el aprendizaje de programación, pero **no para sustituirlo**. En cada entrega y en el proyecto final se debe reportar el uso de la IA (traducción, mejora de código, organización de información, etc.)
+
+Al evaluar, se buscarán pruebas de comprensión de los concepto, si y puedes efectivamente explicar tus código, relato, etc.. Si realizas un trabajo avanzado o 100% generativo pero no se relaciona con el material del curso, no participas en los foros o no muestras tu razonamiento lógico, no obtendrás buena nota o incluso serás **reprobado inmediatamente por falta al código de honor**.

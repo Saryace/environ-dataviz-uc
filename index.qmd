@@ -1,5 +1,106 @@
 ---
-title: "Course Title"
+title: "AGP3141 - Visualización y Análisis de Datos Medioambientales"
 ---
 
-Course info & details here
+## 📑 Descripción del Curso
+
+**Código:** AGP3141\
+**Nombre del curso:** Visualización y Análisis de Datos Medioambientales\
+**Créditos:** 10\
+**Módulos:** 02\
+**Carácter:** Optativo\
+**Tipo:** Taller\
+**Sistema de Calificación:** Estándar\
+**Nivel Formativo:** Magíster\
+**Palabras Clave:** Análisis de datos, programación, visualización de datos
+
+------------------------------------------------------------------------
+
+## 👩🏽‍🏫 Equipo Docente
+
+::: panel-tabset
+## Profesora
+
+**Sara Acevedo**\
+Profesora Asistente UC [Facultad de Agronomía y Sistemas Naturales](https://www.cedeus.cl/pd-sara-acevedo/)\
+📧 [Mensajes/correo por Canvas UC](https://cursos.canvas.uc.cl/)
+
+## Ayudante
+
+**Agustín Coddou** Estudiante Magíster RRNN UC 📧 [Mensajes/correo por Canvas UC](https://cursos.canvas.uc.cl/)
+:::
+
+## 📍 Clases presenciales - Online
+
+📆 **Viernes 11:00 – 13:30**\
+📍 [FT-103](https://ubicate.osuc.dev/?place=FT-103), Campus San Joaquín
+
+## 📍 Office Hours presenciales - Online
+
+📧 Consultas por correo idealmente los lunes durante el día 📆 **Lunes 12:00 – 13:00 ó Lunes 15:00 – 16:00**\
+📍 [FASN](https://ubicate.osuc.dev/?place=AGC), Campus San Joaquín 📧 [Mensajes/correo por Canvas UC para agendar](https://cursos.canvas.uc.cl/)
+
+## 🧭 Integridad Académica y Código de Honor
+
+La UC tiene un compromiso con la cultura de respeto e integridad. Quienes participen de este curso se adscriben al [**Código de Honor UC**](https://www.uc.cl/codigo-de-honor/) y se comprometen con la **veracidad, confianza, respeto, justicia, responsabilidad y honestidad** de todo su trabajo académico.
+
+------------------------------------------------------------------------
+
+## 🎯 Resultados de Aprendizaje
+
+Al finalizar el curso, los y las estudiantes serán capaces de:
+
+-   **Distinguir** los principios básicos del manejo de datos medioambientales en R, incluyendo estructuras de datos, funciones clave y paquetes del entorno `tidyverse`.
+-   **Aplicar** flujos de trabajo programados en R para combinar, limpiar y transformar datos ambientales de diversas fuentes de manera eficiente y reproducible.
+-   **Analizar** conjuntos de datos reales para identificar patrones, inconsistencias o errores, utilizando técnicas reproducibles.
+
+------------------------------------------------------------------------
+
+## 📚 Contenidos del Curso
+
+## 1. Introducción a R y Git
+
+-   Introducción al control de versiones con Git y GitHub\
+-   Principios de datos ordenados, organización de archivos, proyectos en RStudio\
+-   Tipos de datos, objetos, lectura y escritura de archivos en R\
+-   Introducción al paquete `tidyverse`
+
+## 2. Visualización
+
+-   Introducción a R Markdown / Quarto\
+-   `ggplot2`: gráficos básicos, `geom_*`, personalización, anotaciones, gráficos múltiples
+
+## 3. Manejo de Datos Medioambientales
+
+-   Fechas y tiempos con `lubridate`\
+-   Exploración y conteo de datos, uniones\
+-   Manejo de texto en R
+
+## 4. Flujos de Trabajo y Programación
+
+-   Programación funcional y modelos lineales\
+-   Estructuras de control: condicionales y bucles
+
+## 5. Datos Geoespaciales
+
+-   Introducción a datos geoespaciales en R\
+-   Introducción a Python para usuarios de R: fundamentos y comparación de sintaxis con `pandas`
+
+------------------------------------------------------------------------
+
+## 🧪 Metodología
+
+-   Clases expositivas\
+-   Laboratorios prácticos\
+-   Estudio de casos\
+-   Aprendizaje basado en problemas reales
+
+Los contenidos semanales son acumulativos, por lo que el curso presenta una continuidad, se recomienda asistir a clases y participar en los foros de Canvas UC.
+
+------------------------------------------------------------------------
+
+## 🤖 Uso de IA generativa 🤖
+
+En este curso está autorizada el uso de IA generativa. Se pueden utilizar herramientas de IA, incluso en las actividades semanales y entrega final. Consideramos la IA como una herramienta para mejorar el aprendizaje de programación, pero **no para sustituirlo**. En cada entrega y en el proyecto final se debe reportar el uso de la IA (traducción, mejora de código, organización de información, etc.)
+
+Al evaluar, se buscarán pruebas de comprensión de los conceptos, y si puedes efectivamente explicar tus códigos, relato, etc... Si realizas un trabajo avanzado/complejo o 100% generativo que no se relaciona con el material del curso, no participas en los foros o no muestras tu razonamiento lógico, no obtendrás buena nota o incluso serás **reprobado inmediatamente por falta al código de honor**.

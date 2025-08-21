@@ -1,0 +1,292 @@
+---
+title: Reproducibilidad, Buenas Prácticas y Github
+subtitle: AGP3141
+format: revealjs
+author:
+  - name: Sara E. Acevedo
+    orcid: 0000-0003-3203-2106
+    email: seaceved@uc.cl
+    affiliations: Pontificia Universidad Católica de Chile - CEDEUS
+footer: saryace.github.io/
+---
+
+## Objetivos de la clase
+
+-   Conceptos e ideas generales de reproducibilidad, buenas prácticas y GitHub
+-   Durante todo el semestre aprenderemos en profundidad estos conceptos
+-   Clase de hoy: motivarlos a incorporar *reproducibilidad* en sus investigaciones
+
+## Temas a ver hoy
+
+::: incremental
+-   Reproducibilidad
+-   Buenas Prácticas
+-   Github (intro)
+:::
+
+## Porqué?
+
+::: columns
+::: {.column width="50%"}
+![](figures/lazy.png)
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-up}
+-   Código eficiente nos hace la vida más fácil
+:::
+
+::: {.fragment .fade-up}
+-   Somos humanos: código claro y entendible minimiza posibilidad de errores
+:::
+
+::: {.fragment .fade-up}
+-   Interés en ciencia abierta y uso de repositorios
+:::
+:::
+:::
+
+## Reproducibilidad
+
+Hay diferentes definiciones, durante la clase usaremos las detalladas por [The Turing Way](https://book.the-turing-way.org/)
+
+![](https://book.the-turing-way.org/build/reproducible-matrix-90f25f445963a5b3377962312cffd0cb.jpg){fig-align="center"}
+
+## Reproducibilidad
+
+Ejemplo del [Informatics Technology for Cancer Research (ITCR)](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/defining-reproducibility.html)
+
+![](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/02-defining-reproducibility_files/figure-html/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_368.png){fig-align="center"}
+
+## Reproducibilidad
+
+::: columns
+::: {.column width="50%"}
+![](https://book.the-turing-way.org/build/barriers-reproducibi-4f1ba16b498dbe022a8b7dc9eadb67ba.png)
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-up}
+-   Habilidades que no siempren están en los programas de postgrado
+:::
+
+::: {.fragment .fade-up}
+-   La falta de incentivos
+:::
+
+::: {.fragment .fade-up}
+-   Juntos en este curso avanzaremos en reproducibilidad de sus proyectos
+:::
+:::
+:::
+
+## Reproducibilidad
+
+Trabajeremos siempre avanzando un poco más, como un contínuo
+
+![](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/02-defining-reproducibility_files/figure-html/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_0.png){fig-align="center"} \# [Reproducibilidad ≠ Ciencia Abierta]{.r-fit-text} {background-color="#40666e"}
+
+## Buenas Prácticas
+
+::: incremental
+-   Compendio (orden de carpetas y archivos)
+-   Reglas de oro generales
+-   "Buen" código
+:::
+
+## Compendio
+
+Un compendio es una colección de todos los archivos digitales de un proyecto de investigación, incluyendo datos, código y textos. Debe ser ordenado para que la reproducibilidad de los resultados sea fácil de obtener. Por lo general se trabaja en *proyectos* correspondientes a un *directorio*
+
+## 
+
+::: {#fig-folder layout-ncol="2"}
+
+![](https://ecorepsci.github.io/reproducible-science/img/activity-based-directory-organization.jpg)
+
+![](https://ecorepsci.github.io/reproducible-science/img/project-based-directory-organization.jpg) 
+
+Enfoques
+:::
+
+## Compendio
+
+Pasos según [workshop-computational-reproducibility UtrechUni](https://utrechtuniversity.github.io/workshop-computational-reproducibility/chapters/project-setup.html)
+
+-   Contener el proyecto en una sola carpeta.
+
+-   Distinguir los tipos de carpetas y nombrarlas de forma adecuada.
+
+-   Siempre incluir un archivo README.
+
+# [Un proyecto = un directorio]{.r-fit-text} {background-color="#40666e"}
+
+## Compendio
+
+Ejemplo de [Effective Data Science](https://eds-notes.zakvarty.com/101-workflows-organising-your-work)
+
+![](https://eds-notes.zakvarty.com/images/101-workflows-organising-your-work/directory-structure-drawings/directory-structure-drawing-5.png){fig-align="center"}
+
+## Reglas de oro generales
+
+Lista según [Reproducible Data Science](https://ecorepsci.github.io/reproducible-science/project-organization.html)
+
+1.  Los datos crudos **nunca** deben modificarse. Datos procesados deben ir en una carpeta aparte
+2.  Resultados de código deben guardarse en su propia carpeta (“output” para resultados y “figures” para figuras).
+3.  Los códigos van en su propia carpeta (scr por scripts).
+4.  Siempre modularizar el código: en lugar de un único script gigante, dividir el flujo de trabajo en scripts cortos.
+5.  Apuntar escribir a código seco: **DRY** do not repeat yourself
+
+## Escribir "buen" código
+
+::: columns
+::: {.column width="50%"}
+![](https://psyteachr.github.io/reprores-v4/images/memes/wickham-shitty-code.png)
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-up}
+-   Leíble por humanos y computadoras, ordenable
+:::
+
+::: {.fragment .fade-up}
+-   Reusable
+:::
+
+::: {.fragment .fade-up}
+-   Robusto
+:::
+:::
+:::
+
+## Leíble por humanos y computadoras, ordenable
+
+{{< video https://www.youtube.com/watch?v=ES1LTlnpLMk
+    title='Ver video de Jenny Bryan?' width="600" height="500"
+>}} 
+
+## Leíble por humanos y computadoras, ordenable
+
+![](figures/jenny-bryan.png){fig-align="center"}
+
+## Leíble por humanos y computadoras, ordenable
+
+1. Linters ayudan a ver la sintáxis del código
+2. Stylers pueden formatear código
+
+- R: [lintr](https://lintr.r-lib.org/) y [styler](https://styler.r-lib.org/)
+- Python: [ruff-check](https://docs.astral.sh/ruff/) y [ruff-format](https://docs.astral.sh/ruff/)
+
+## Reusable
+
+::: incremental
+-   Separar datos de scripts 
+-   Crear el código para usar constantes solo una vez (omega = 4.56)
+-   Solo una cosa a la vez, aplica para funciones y scripts
+-   Código seco (DRY) do not repear yourself
+:::
+
+## Robusto
+
+::: incremental
+
+- Si hay las suposiciones o condiciones, declararlas
+
+- Verificar los valores antes de procesarlos.
+
+- Identificar excepciones.
+
+- Generar errores cuando no se cumplan las expectativas.
+
+:::
+
+## Robusto
+
+```{r}
+#| echo: true
+
+nombre_region <- function(x) {
+  regiones <- data.frame(
+    numero = 1:16,
+    region = c(
+      "Tarapacá", "Antofagasta", "Atacama", "Coquimbo", "Valparaíso",
+      "O'Higgins", "Maule", "Biobío", "La Araucanía", "Los Lagos",
+      "Aysén", "Magallanes", "Metropolitana", "Los Ríos",
+      "Arica y Parinacota", "Ñuble"
+    )
+  )
+  regiones$region[match(x, regiones$numero)]
+}
+
+nombre_region(13)
+
+```
+
+## Robusto
+
+```{r}
+#| echo: true
+
+nombre_region <- function(x) {
+  regiones <- data.frame(
+    numero = 1:16,
+    region = c(
+      "Tarapacá", "Antofagasta", "Atacama", "Coquimbo", "Valparaíso",
+      "O'Higgins", "Maule", "Biobío", "La Araucanía", "Los Lagos",
+      "Aysén", "Magallanes", "Metropolitana", "Los Ríos",
+      "Arica y Parinacota", "Ñuble"
+    )
+  )
+  regiones$region[match(x, regiones$numero)]
+}
+
+nombre_region(17)
+
+```
+## GitHub
+
+No es sencillo aprender a usar GitHub, pero ya todos tienen su cuenta y primer repositorio! 👩🏽‍💻 👨🏽‍💻. Comencemos hoy con vocabulario 👩🏽‍🏫
+
+## GitHub
+
+![](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/03-version-control-with-github_files/figure-html/1IJ_uFxJud7OdIAr6p8ZOzvYs-SGDqa7g4cUHtUld03I_g1014c75158f_0_120.png){fig-align="center"}
+
+## GitHub
+
+![](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/03-version-control-with-github_files/figure-html/1IJ_uFxJud7OdIAr6p8ZOzvYs-SGDqa7g4cUHtUld03I_g1014c75158f_0_149.png){fig-align="center"}
+
+## GitHub
+
+1. Remoto: en internet (GitHub).
+2. Local: en el computador.
+3. Repositorio = Proyecto.
+4. Usando GitHub, un proyecto existirá tanto como repositorio remoto como repositorio local (es decir, estará en GitHub y también en tu computador).
+
+
+## GitHub
+
+![](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/03-version-control-with-github_files/figure-html/1IJ_uFxJud7OdIAr6p8ZOzvYs-SGDqa7g4cUHtUld03I_g1014c75158f_0_90.png){fig-align="center"}
+
+## Crear projecto en RStudio
+
+![](figures/1-paso.png){fig-align="center"}
+
+## Crear projecto en RStudio
+
+![](figures/2-paso.png){fig-align="center"}
+## Crear projecto en RStudio
+
+![](figures/3-paso.png){fig-align="center"}
+## Crear projecto en RStudio
+
+![](figures/4-paso.png){fig-align="center"}
+
+## Bibliografía general
+
+- [The Turing Way](https://book.the-turing-way.org/)
+- [Introduction to Earth Data Science](https://earthdatascience.org/courses/intro-to-earth-data-science/)
+- [Data Skills for Reproducible Research](https://psyteachr.github.io/reprores-v4/)
+- [Effective Data Science](https://eds-notes.zakvarty.com/)
+- [Computational Reproducibility](https://utrechtuniversity.github.io/workshop-computational-reproducibility/)
+- [Advanced Reproducibility in Cancer Informatics](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/index.html)
+- [Reproducible Data Science](https://ecorepsci.github.io/reproducible-science/project-organization.html)

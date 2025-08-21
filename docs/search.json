@@ -234,8 +234,8 @@
     "objectID": "slides/01-semana.html#objetivos-de-la-clase",
     "href": "slides/01-semana.html#objetivos-de-la-clase",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
-    "section": "",
-    "text": "Conceptos e ideas generales de reproducibilidad, buenas prácticas y GitHub\nDurante todo el semestre aprenderemos en profundidad estos conceptos\nClase de hoy: motivarlos a incorporar reproducibilidad en sus investigaciones"
+    "section": "Objetivos de la clase",
+    "text": "Objetivos de la clase\n\nConceptos e ideas generales de reproducibilidad, buenas prácticas y GitHub\nDurante todo el semestre aprenderemos en profundidad estos conceptos\nClase de hoy: motivarlos a incorporar reproducibilidad en sus investigaciones"
   },
   {
     "objectID": "slides/01-semana.html#temas-a-ver-hoy",
@@ -452,6 +452,6 @@
     "href": "slides/01-semana.html#bibliografía-general",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Bibliografía general",
-    "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science"
+    "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science\n\n\n\nsaryace.github.io/environ-dataviz-uc"
   }
 ]

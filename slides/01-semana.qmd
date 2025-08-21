@@ -1,13 +1,17 @@
 ---
 title: Reproducibilidad, Buenas Prácticas y Github
 subtitle: AGP3141
-format: revealjs
+format: 
+  revealjs:
+    slide-number: c/t
+    link-external-newwindow: true   
+    link-external-icon: true        
 author:
   - name: Sara E. Acevedo
     orcid: 0000-0003-3203-2106
     email: seaceved@uc.cl
     affiliations: Pontificia Universidad Católica de Chile - CEDEUS
-footer: saryace.github.io/
+footer: saryace.github.io/environ-dataviz-uc
 ---
 
 ## Objetivos de la clase

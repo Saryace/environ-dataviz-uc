@@ -109,7 +109,7 @@
     "href": "clases.html",
     "title": "Course Materials",
     "section": "",
-    "text": "Semana\nTema\nSlides\nDatos\nReferencias\n\n\n\n\n\n1\nPresentación del curso. Introducción a R y RStudio\n📄 intro\n—\nVideos en Canvas\n\n\n\n2\nIntroducción a Git, GitHub e investigación reproducible\n📄 github-basico\n—\nHappy Git with R\n\n\n\n3\nTidy data y proyectos en RStudio\n📄 tidy-data\nPalmer Penguins\nR4DS\n\n\n\n4\nLectura/escritura y exploración de datos\n📄 formatos\nAgrometeorologia\nR4DS\n\n\n\n5\nIntroducción a tidyverse: dplyr, readr, tibble\n📄 tidyverse-basico\nEDI Data Portal\nR4DS\n\n\n\n6\nFeriado: Fiestas Patrias\n—\n—\n—\n\n\n\n7\nggplot2 I: básicos y geom_*\n📄 ggplot2-A\n—\nModern Data Visualization with R\n\n\n\n8\nggplot2 II: personalización y facetas\n📄 ggplot2-B\n—\nModern Data Visualization with R\n\n\n\n9\nManejo de fechas y unión de datos\n📄 fechas-join\n—\nR4DS\n\n\n\n10\nManejo de texto y limpieza\n📄 texto\n—\n—\n\n\n\n11\nModelos lineales y programación funcional\n📄 purrr-reg\n—\n—\n\n\n\n12\nFeriado: Día Iglesias Evangélicas\n—\n—\n—\n\n\n\n13\nCondicionales y bucles\n📄 loop\n—\n—\n\n\n\n14\nIntroducción a datos geoespaciales en R\n📄 geoespacial-R\n—\n—\n\n\n\n15\nIntroducción a Python para usuarios de R\n📄 r-python\n—\n—\n\n\n\n16\nPresentaciones finales y cierre del curso\n—\nDataset final\n—\n—"
+    "text": "Semana\nTema\nSlides\nDatos\nReferencias\n\n\n\n\n\n1\nPresentación del curso. Introducción a R y RStudio\n📄 No slides\n—\nVideos en Canvas\n\n\n\n2\nIntroducción a Git, GitHub e investigación reproducible\n📄 reproducibilidad\n—\nHappy Git with R + otras (ver slides)\n\n\n\n3\nTidy data y proyectos en RStudio\n📄 tidy-data\nPalmer Penguins\nR4DS\n\n\n\n4\nLectura/escritura y exploración de datos\n📄 formatos\nAgrometeorologia\nR4DS\n\n\n\n5\nIntroducción a tidyverse: dplyr, readr, tibble\n📄 tidyverse-basico\nEDI Data Portal\nR4DS\n\n\n\n6\nFeriado: Fiestas Patrias\n—\n—\n—\n\n\n\n7\nggplot2 I: básicos y geom_*\n📄 ggplot2-A\n—\nModern Data Visualization with R\n\n\n\n8\nggplot2 II: personalización y facetas\n📄 ggplot2-B\n—\nModern Data Visualization with R\n\n\n\n9\nManejo de fechas y unión de datos\n📄 fechas-join\n—\nR4DS\n\n\n\n10\nManejo de texto y limpieza\n📄 texto\n—\n—\n\n\n\n11\nModelos lineales y programación funcional\n📄 purrr-reg\n—\n—\n\n\n\n12\nFeriado: Día Iglesias Evangélicas\n—\n—\n—\n\n\n\n13\nCondicionales y bucles\n📄 loop\n—\n—\n\n\n\n14\nIntroducción a datos geoespaciales en R\n📄 geoespacial-R\n—\n—\n\n\n\n15\nIntroducción a Python para usuarios de R\n📄 r-python\n—\n—\n\n\n\n16\nPresentaciones finales y cierre del curso\n—\nDataset final\n—\n—"
   },
   {
     "objectID": "calendario.html#asistencia-a-clases",
@@ -214,6 +214,244 @@
     "href": "clases.html#calendario-del-curso-agp3141-segundo-semestre-2025",
     "title": "Course Materials",
     "section": "",
-    "text": "Semana\nTema\nSlides\nDatos\nReferencias\n\n\n\n\n\n1\nPresentación del curso. Introducción a R y RStudio\n📄 intro\n—\nVideos en Canvas\n\n\n\n2\nIntroducción a Git, GitHub e investigación reproducible\n📄 github-basico\n—\nHappy Git with R\n\n\n\n3\nTidy data y proyectos en RStudio\n📄 tidy-data\nPalmer Penguins\nR4DS\n\n\n\n4\nLectura/escritura y exploración de datos\n📄 formatos\nAgrometeorologia\nR4DS\n\n\n\n5\nIntroducción a tidyverse: dplyr, readr, tibble\n📄 tidyverse-basico\nEDI Data Portal\nR4DS\n\n\n\n6\nFeriado: Fiestas Patrias\n—\n—\n—\n\n\n\n7\nggplot2 I: básicos y geom_*\n📄 ggplot2-A\n—\nModern Data Visualization with R\n\n\n\n8\nggplot2 II: personalización y facetas\n📄 ggplot2-B\n—\nModern Data Visualization with R\n\n\n\n9\nManejo de fechas y unión de datos\n📄 fechas-join\n—\nR4DS\n\n\n\n10\nManejo de texto y limpieza\n📄 texto\n—\n—\n\n\n\n11\nModelos lineales y programación funcional\n📄 purrr-reg\n—\n—\n\n\n\n12\nFeriado: Día Iglesias Evangélicas\n—\n—\n—\n\n\n\n13\nCondicionales y bucles\n📄 loop\n—\n—\n\n\n\n14\nIntroducción a datos geoespaciales en R\n📄 geoespacial-R\n—\n—\n\n\n\n15\nIntroducción a Python para usuarios de R\n📄 r-python\n—\n—\n\n\n\n16\nPresentaciones finales y cierre del curso\n—\nDataset final\n—\n—"
+    "text": "Semana\nTema\nSlides\nDatos\nReferencias\n\n\n\n\n\n1\nPresentación del curso. Introducción a R y RStudio\n📄 No slides\n—\nVideos en Canvas\n\n\n\n2\nIntroducción a Git, GitHub e investigación reproducible\n📄 reproducibilidad\n—\nHappy Git with R + otras (ver slides)\n\n\n\n3\nTidy data y proyectos en RStudio\n📄 tidy-data\nPalmer Penguins\nR4DS\n\n\n\n4\nLectura/escritura y exploración de datos\n📄 formatos\nAgrometeorologia\nR4DS\n\n\n\n5\nIntroducción a tidyverse: dplyr, readr, tibble\n📄 tidyverse-basico\nEDI Data Portal\nR4DS\n\n\n\n6\nFeriado: Fiestas Patrias\n—\n—\n—\n\n\n\n7\nggplot2 I: básicos y geom_*\n📄 ggplot2-A\n—\nModern Data Visualization with R\n\n\n\n8\nggplot2 II: personalización y facetas\n📄 ggplot2-B\n—\nModern Data Visualization with R\n\n\n\n9\nManejo de fechas y unión de datos\n📄 fechas-join\n—\nR4DS\n\n\n\n10\nManejo de texto y limpieza\n📄 texto\n—\n—\n\n\n\n11\nModelos lineales y programación funcional\n📄 purrr-reg\n—\n—\n\n\n\n12\nFeriado: Día Iglesias Evangélicas\n—\n—\n—\n\n\n\n13\nCondicionales y bucles\n📄 loop\n—\n—\n\n\n\n14\nIntroducción a datos geoespaciales en R\n📄 geoespacial-R\n—\n—\n\n\n\n15\nIntroducción a Python para usuarios de R\n📄 r-python\n—\n—\n\n\n\n16\nPresentaciones finales y cierre del curso\n—\nDataset final\n—\n—"
+  },
+  {
+    "objectID": "slides/01-semana.html#getting-up",
+    "href": "slides/01-semana.html#getting-up",
+    "title": "Reproducibilidad, Git y Buenas Prácticas",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/01-semana.html#going-to-sleep",
+    "href": "slides/01-semana.html#going-to-sleep",
+    "title": "Reproducibilidad, Git y Buenas Prácticas",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep\n\n\n\nsaryace.github.io/"
+  },
+  {
+    "objectID": "slides/01-semana.html#objetivos-de-la-clase",
+    "href": "slides/01-semana.html#objetivos-de-la-clase",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "",
+    "text": "Conceptos e ideas generales de reproducibilidad, buenas prácticas y GitHub\nDurante todo el semestre aprenderemos en profundidad estos conceptos\nClase de hoy: motivarlos a incorporar reproducibilidad en sus investigaciones"
+  },
+  {
+    "objectID": "slides/01-semana.html#temas-a-ver-hoy",
+    "href": "slides/01-semana.html#temas-a-ver-hoy",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Temas a ver hoy",
+    "text": "Temas a ver hoy\n\n\nReproducibilidad\nBuenas Prácticas\nGithub (intro)"
+  },
+  {
+    "objectID": "slides/01-semana.html#reproducibilidad",
+    "href": "slides/01-semana.html#reproducibilidad",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reproducibilidad",
+    "text": "Reproducibilidad\nHay diferentes definiciones, durante la clase usaremos las detalladas por The Turing Way"
+  },
+  {
+    "objectID": "slides/01-semana.html#prueba",
+    "href": "slides/01-semana.html#prueba",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "prueba",
+    "text": "prueba\n\n\n\n\n\n\nPaquete de R que contiene funciones para el análisis de datos de infiltración\n\n\n\n\nCapacida de replicar y reproducir datos de infiltración en un framework sencillo basado en {tidyverse}\n\n\n\n\nManuscrito en revisión 🤞 (Giraldo et al., 2024) SoftwareX\n\n\n\n\n\n\nsaryace.github.io/"
+  },
+  {
+    "objectID": "slides/01-semana.html#porqué",
+    "href": "slides/01-semana.html#porqué",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Porqué?",
+    "text": "Porqué?\n\n\n\n\n\n\nCódigo eficiente nos hace la vida más fácil\n\n\n\n\nSomos humanos: código claro y entendible minimiza posibilidad de errores\n\n\n\n\nInterés en ciencia abierta y uso de repositorios"
+  },
+  {
+    "objectID": "slides/01-semana.html#reproducibilidad-1",
+    "href": "slides/01-semana.html#reproducibilidad-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reproducibilidad",
+    "text": "Reproducibilidad\nEjemplo del Informatics Technology for Cancer Research (ITCR)"
+  },
+  {
+    "objectID": "slides/01-semana.html#reproducibilidad-2",
+    "href": "slides/01-semana.html#reproducibilidad-2",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reproducibilidad",
+    "text": "Reproducibilidad\n\n\n\n\n\n\nHabilidades que no siempren están en los programas de postgrado\n\n\n\n\nLa falta de incentivos\n\n\n\n\nJuntos en este curso avanzaremos en reproducibilidad de sus proyectos"
+  },
+  {
+    "objectID": "slides/01-semana.html#reproducibilidad-3",
+    "href": "slides/01-semana.html#reproducibilidad-3",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reproducibilidad",
+    "text": "Reproducibilidad\nTrabajeremos siempre avanzando un poco más, como un contínuo\n # Reproducibilidad ≠ Ciencia Abierta {background-color=“#40666e”}"
+  },
+  {
+    "objectID": "slides/01-semana.html#buenas-prácticas",
+    "href": "slides/01-semana.html#buenas-prácticas",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Buenas Prácticas",
+    "text": "Buenas Prácticas\n\n\nCompendio (orden de carpetas y archivos)\nReglas de oro generales\n“Buen” código"
+  },
+  {
+    "objectID": "slides/01-semana.html#compendio",
+    "href": "slides/01-semana.html#compendio",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Compendio",
+    "text": "Compendio\nUn compendio es una colección de todos los archivos digitales de un proyecto de investigación, incluyendo datos, código y textos. Debe ser ordenado para que la reproducibilidad de los resultados sea fácil de obtener. Por lo general se trabaja en proyectos correspondientes a un directorio"
+  },
+  {
+    "objectID": "slides/01-semana.html#compendio-1",
+    "href": "slides/01-semana.html#compendio-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Compendio",
+    "text": "Compendio\nPasos según workshop-computational-reproducibility UtrechUni\n\nContener el proyecto en una sola carpeta.\nDistinguir los tipos de carpetas y nombrarlas de forma adecuada.\nSiempre incluir un archivo README."
+  },
+  {
+    "objectID": "slides/01-semana.html#compendio-2",
+    "href": "slides/01-semana.html#compendio-2",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Compendio",
+    "text": "Compendio\nEjemplo de Effective Data Science"
+  },
+  {
+    "objectID": "slides/01-semana.html#reglas-de-oro-generales",
+    "href": "slides/01-semana.html#reglas-de-oro-generales",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reglas de oro generales",
+    "text": "Reglas de oro generales\nLista según Reproducible Data Science\n\nLos datos crudos nunca deben modificarse. Datos procesados deben ir en una carpeta aparte\nResultados de código deben guardarse en su propia carpeta (“output” para resultados y “figures” para figuras).\nLos códigos van en su propia carpeta (scr por scripts).\nSiempre modularizar el código: en lugar de un único script gigante, dividir el flujo de trabajo en scripts cortos.\nApuntar escribir a código seco: DRY do not repeat yourself"
+  },
+  {
+    "objectID": "slides/01-semana.html#section",
+    "href": "slides/01-semana.html#section",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "",
+    "text": "Figure 1: Enfoques"
+  },
+  {
+    "objectID": "slides/01-semana.html#reglas-de-oro-generales-1",
+    "href": "slides/01-semana.html#reglas-de-oro-generales-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reglas de oro generales",
+    "text": "Reglas de oro generales\n\n\nsaryace.github.io/"
+  },
+  {
+    "objectID": "slides/01-semana.html#escribir-buen-código",
+    "href": "slides/01-semana.html#escribir-buen-código",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Escribir “buen” código",
+    "text": "Escribir “buen” código\n\n\n\n\n\n\nLeíble por humanos y computadoras, ordenable\n\n\n\n\nReusable\n\n\n\n\nRobusto"
+  },
+  {
+    "objectID": "slides/01-semana.html#leíble-por-humanos-y-computadoras-ordenable",
+    "href": "slides/01-semana.html#leíble-por-humanos-y-computadoras-ordenable",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Leíble por humanos y computadoras, ordenable",
+    "text": "Leíble por humanos y computadoras, ordenable"
+  },
+  {
+    "objectID": "slides/01-semana.html#reusable",
+    "href": "slides/01-semana.html#reusable",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Reusable",
+    "text": "Reusable\n\n\nSeparar datos de scripts\nCrear el código para usar constantes solo una vez (omega = 4.56)\nSolo una cosa a la vez, aplica para funciones y scripts\nCódigo seco (DRY) do not repear yourself"
+  },
+  {
+    "objectID": "slides/01-semana.html#robusto",
+    "href": "slides/01-semana.html#robusto",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Robusto",
+    "text": "Robusto\n\n\nSi hay las suposiciones o condiciones, declararlas\nVerificar los valores antes de procesarlos.\nIdentificar excepciones.\nGenerar errores cuando no se cumplan las expectativas."
+  },
+  {
+    "objectID": "slides/01-semana.html#github",
+    "href": "slides/01-semana.html#github",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "GitHub",
+    "text": "GitHub\nNo es sencillo aprender a usar GitHub, pero ya todos tienen su cuenta y primer repositorio! 👩🏽‍💻 👨🏽‍💻. Comencemos hoy con vocabulario 👩🏽‍🏫"
+  },
+  {
+    "objectID": "slides/01-semana.html#github-1",
+    "href": "slides/01-semana.html#github-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/01-semana.html#github-2",
+    "href": "slides/01-semana.html#github-2",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/01-semana.html#github-3",
+    "href": "slides/01-semana.html#github-3",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "GitHub",
+    "text": "GitHub\n\nRemoto: en internet (GitHub).\nLocal: en el computador.\nRepositorio = Proyecto.\nUsando GitHub, un proyecto existirá tanto como repositorio remoto como repositorio local (es decir, estará en GitHub y también en tu computador)."
+  },
+  {
+    "objectID": "slides/01-semana.html#github-4",
+    "href": "slides/01-semana.html#github-4",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/01-semana.html#leíble-por-humanos-y-computadoras-ordenable-1",
+    "href": "slides/01-semana.html#leíble-por-humanos-y-computadoras-ordenable-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Leíble por humanos y computadoras, ordenable",
+    "text": "Leíble por humanos y computadoras, ordenable"
+  },
+  {
+    "objectID": "slides/01-semana.html#leíble-por-humanos-y-computadoras-ordenable-2",
+    "href": "slides/01-semana.html#leíble-por-humanos-y-computadoras-ordenable-2",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Leíble por humanos y computadoras, ordenable",
+    "text": "Leíble por humanos y computadoras, ordenable\n\nLinters ayudan a ver la sintáxis del código\nStylers pueden formatear código\n\n\nR: lintr y styler\nPython: ruff-check y ruff-format"
+  },
+  {
+    "objectID": "slides/01-semana.html#robusto-1",
+    "href": "slides/01-semana.html#robusto-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Robusto",
+    "text": "Robusto\n\nnombre_region &lt;- function(x) {\n  regiones &lt;- data.frame(\n    numero = 1:16,\n    region = c(\n      \"Tarapacá\", \"Antofagasta\", \"Atacama\", \"Coquimbo\", \"Valparaíso\",\n      \"O'Higgins\", \"Maule\", \"Biobío\", \"La Araucanía\", \"Los Lagos\",\n      \"Aysén\", \"Magallanes\", \"Metropolitana\", \"Los Ríos\",\n      \"Arica y Parinacota\", \"Ñuble\"\n    )\n  )\n  regiones$region[match(x, regiones$numero)]\n}\n\nnombre_region(13)\n\n[1] \"Metropolitana\""
+  },
+  {
+    "objectID": "slides/01-semana.html#robusto-2",
+    "href": "slides/01-semana.html#robusto-2",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Robusto",
+    "text": "Robusto\n\nnombre_region &lt;- function(x) {\n  regiones &lt;- data.frame(\n    numero = 1:16,\n    region = c(\n      \"Tarapacá\", \"Antofagasta\", \"Atacama\", \"Coquimbo\", \"Valparaíso\",\n      \"O'Higgins\", \"Maule\", \"Biobío\", \"La Araucanía\", \"Los Lagos\",\n      \"Aysén\", \"Magallanes\", \"Metropolitana\", \"Los Ríos\",\n      \"Arica y Parinacota\", \"Ñuble\"\n    )\n  )\n  regiones$region[match(x, regiones$numero)]\n}\n\nnombre_region(17)\n\n[1] NA"
+  },
+  {
+    "objectID": "slides/01-semana.html",
+    "href": "slides/01-semana.html",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "",
+    "text": "Conceptos e ideas generales de reproducibilidad, buenas prácticas y GitHub\nDurante todo el semestre aprenderemos en profundidad estos conceptos\nClase de hoy: motivarlos a incorporar reproducibilidad en sus investigaciones"
+  },
+  {
+    "objectID": "slides/01-semana.html#crear-projecto-en-rstudio",
+    "href": "slides/01-semana.html#crear-projecto-en-rstudio",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/01-semana.html#crear-projecto-en-rstudio-1",
+    "href": "slides/01-semana.html#crear-projecto-en-rstudio-1",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio\n ## Crear projecto en RStudio\n ## Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/01-semana.html#bibliografía-general",
+    "href": "slides/01-semana.html#bibliografía-general",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Bibliografía general",
+    "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science"
   }
 ]

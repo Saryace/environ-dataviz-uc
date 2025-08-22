@@ -242,7 +242,7 @@
     "href": "slides/01-semana.html#temas-a-ver-hoy",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Temas a ver hoy",
-    "text": "Temas a ver hoy\n\n\nReproducibilidad\nBuenas Prácticas\nGithub (intro)"
+    "text": "Temas a ver hoy\n\nReproducibilidad\nBuenas Prácticas\nGithub (intro)"
   },
   {
     "objectID": "slides/01-semana.html#reproducibilidad",
@@ -291,7 +291,7 @@
     "href": "slides/01-semana.html#buenas-prácticas",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Buenas Prácticas",
-    "text": "Buenas Prácticas\n\n\nCompendio (orden de carpetas y archivos)\nReglas de oro generales\n“Buen” código"
+    "text": "Buenas Prácticas\n\nCompendio (orden de carpetas y archivos)\nReglas de oro generales\n“Buen” código"
   },
   {
     "objectID": "slides/01-semana.html#compendio",
@@ -354,14 +354,14 @@
     "href": "slides/01-semana.html#reusable",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Reusable",
-    "text": "Reusable\n\n\nSeparar datos de scripts\nCrear el código para usar constantes solo una vez (omega = 4.56)\nSolo una cosa a la vez, aplica para funciones y scripts\nCódigo seco (DRY) do not repear yourself"
+    "text": "Reusable\n\nSeparar datos de scripts\nCrear el código para usar constantes solo una vez (omega = 4.56)\nSolo una cosa a la vez, aplica para funciones y scripts\nCódigo seco (DRY) do not repear yourself"
   },
   {
     "objectID": "slides/01-semana.html#robusto",
     "href": "slides/01-semana.html#robusto",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Robusto",
-    "text": "Robusto\n\n\nSi hay las suposiciones o condiciones, declararlas\nVerificar los valores antes de procesarlos.\nIdentificar excepciones.\nGenerar errores cuando no se cumplan las expectativas."
+    "text": "Robusto\n\nSi hay las suposiciones o condiciones, declararlas\nVerificar los valores antes de procesarlos.\nIdentificar excepciones.\nGenerar errores cuando no se cumplan las expectativas."
   },
   {
     "objectID": "slides/01-semana.html#github",
@@ -445,13 +445,27 @@
     "href": "slides/01-semana.html#crear-projecto-en-rstudio-1",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Crear projecto en RStudio",
-    "text": "Crear projecto en RStudio\n ## Crear projecto en RStudio\n ## Crear projecto en RStudio"
+    "text": "Crear projecto en RStudio"
   },
   {
     "objectID": "slides/01-semana.html#bibliografía-general",
     "href": "slides/01-semana.html#bibliografía-general",
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Bibliografía general",
-    "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science\n\n\n\nsaryace.github.io/environ-dataviz-uc"
+    "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science"
+  },
+  {
+    "objectID": "slides/01-semana.html#crear-projecto-en-rstudio-2",
+    "href": "slides/01-semana.html#crear-projecto-en-rstudio-2",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/01-semana.html#crear-projecto-en-rstudio-3",
+    "href": "slides/01-semana.html#crear-projecto-en-rstudio-3",
+    "title": "Reproducibilidad, Buenas Prácticas y Github",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
   }
 ]

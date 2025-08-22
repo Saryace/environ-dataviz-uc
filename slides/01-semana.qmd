@@ -278,9 +278,11 @@ No es sencillo aprender a usar GitHub, pero ya todos tienen su cuenta y primer r
 ## Crear projecto en RStudio
 
 ![](figures/2-paso.png){fig-align="center"}
+
 ## Crear projecto en RStudio
 
 ![](figures/3-paso.png){fig-align="center"}
+
 ## Crear projecto en RStudio
 
 ![](figures/4-paso.png){fig-align="center"}

@@ -24,7 +24,7 @@ saludo_animal <-
 
 saludo_animal(
   nombre = "Sara",
-  animal = "lagartija"
+  animal = "random"
 )
 
 # Nueva funcion -----------------------------------------------------------

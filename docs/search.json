@@ -475,5 +475,243 @@
     "title": "Reproducibilidad, Buenas Prácticas y Github",
     "section": "Bibliografía general",
     "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science"
+  },
+  {
+    "objectID": "slides/03-semana.html#objetivos-de-la-clase",
+    "href": "slides/03-semana.html#objetivos-de-la-clase",
+    "title": "Exploración de datos",
+    "section": "Objetivos de la clase",
+    "text": "Objetivos de la clase\n\nDescribir un análisis exploratorio (EDA)\nLibrería principal en R: tidyverse\nLibrerías principal en Python: Pandas\nFormato tidy para datos"
+  },
+  {
+    "objectID": "slides/03-semana.html#eda",
+    "href": "slides/03-semana.html#eda",
+    "title": "Exploración de datos",
+    "section": "EDA",
+    "text": "EDA\n\nPreguntas sobre los datos de investigación\nBuscar respuestas visualizando, transformando y modelando\nEn base a lo explorado, refinar hipótesis y preguntas anteriores\nNuevas preguntas → Nuevos análisis → Nuevos modelos."
+  },
+  {
+    "objectID": "slides/03-semana.html#flujo-de-trabajo-eda",
+    "href": "slides/03-semana.html#flujo-de-trabajo-eda",
+    "title": "Exploración de datos",
+    "section": "Flujo de trabajo EDA",
+    "text": "Flujo de trabajo EDA\n\n\n\n\n\n\nComenzamos importando datos\n\n\n\n\nHacemos nuestro EDA transformar → visualizar → modelar\n\n\n\n\nAvanzamos a la comunicación (posters, presentaciones, reportes, papers…)"
+  },
+  {
+    "objectID": "slides/03-semana.html#librería-en-r-tidyverse",
+    "href": "slides/03-semana.html#librería-en-r-tidyverse",
+    "title": "Exploración de datos",
+    "section": "Librería en R: Tidyverse",
+    "text": "Librería en R: Tidyverse\nTidyverse:\n\nMegapaquete que contiene paquetes para el análisis datos\nConstruidos con los mismos principios\n\nLa filosofía del paquete\n\nReusar estructuras de datos\nUtilizar el operador pipe %&gt;% para combinar funciones\nPensado para “humanos”"
+  },
+  {
+    "objectID": "slides/03-semana.html#librería-en-r-tidyverse-1",
+    "href": "slides/03-semana.html#librería-en-r-tidyverse-1",
+    "title": "Exploración de datos",
+    "section": "Librería en R: Tidyverse",
+    "text": "Librería en R: Tidyverse\nEjemplo: un pedazo de torta a partir de ingredientes\n\nIngredientes (harina, azúcar, etc.) 🛒\nMezclar en un bowl ingredientes 🥣\nHornear la mezcla ⏲️\nDecorar el bizcocho 🥧\nCortar 🍰"
+  },
+  {
+    "objectID": "slides/03-semana.html#reproducibilidad",
+    "href": "slides/03-semana.html#reproducibilidad",
+    "title": "Exploración de datos",
+    "section": "Reproducibilidad",
+    "text": "Reproducibilidad"
+  },
+  {
+    "objectID": "slides/03-semana.html#reproducibilidad-1",
+    "href": "slides/03-semana.html#reproducibilidad-1",
+    "title": "Exploración de datos",
+    "section": "Reproducibilidad",
+    "text": "Reproducibilidad"
+  },
+  {
+    "objectID": "slides/03-semana.html#buenas-prácticas",
+    "href": "slides/03-semana.html#buenas-prácticas",
+    "title": "Exploración de datos",
+    "section": "Buenas Prácticas",
+    "text": "Buenas Prácticas\n\nCompendio (orden de carpetas y archivos)\nReglas de oro generales\n“Buen” código"
+  },
+  {
+    "objectID": "slides/03-semana.html#compendio",
+    "href": "slides/03-semana.html#compendio",
+    "title": "Exploración de datos",
+    "section": "Compendio",
+    "text": "Compendio\nUn compendio es una colección de todos los archivos digitales de un proyecto de investigación, incluyendo datos, código y textos. Debe ser ordenado para que la reproducibilidad de los resultados sea fácil de obtener. Por lo general se trabaja en proyectos correspondientes a un directorio"
+  },
+  {
+    "objectID": "slides/03-semana.html#section",
+    "href": "slides/03-semana.html#section",
+    "title": "Exploración de datos",
+    "section": "",
+    "text": "Figure 1: Enfoques"
+  },
+  {
+    "objectID": "slides/03-semana.html#compendio-1",
+    "href": "slides/03-semana.html#compendio-1",
+    "title": "Exploración de datos",
+    "section": "Compendio",
+    "text": "Compendio\nPasos según workshop-computational-reproducibility UtrechUni\n\nContener el proyecto en una sola carpeta.\nDistinguir los tipos de carpetas y nombrarlas de forma adecuada.\nSiempre incluir un archivo README."
+  },
+  {
+    "objectID": "slides/03-semana.html#compendio-2",
+    "href": "slides/03-semana.html#compendio-2",
+    "title": "Exploración de datos",
+    "section": "Compendio",
+    "text": "Compendio\nEjemplo de Effective Data Science"
+  },
+  {
+    "objectID": "slides/03-semana.html#reglas-de-oro-generales",
+    "href": "slides/03-semana.html#reglas-de-oro-generales",
+    "title": "Exploración de datos",
+    "section": "Reglas de oro generales",
+    "text": "Reglas de oro generales\nLista según Reproducible Data Science\n\nLos datos crudos nunca deben modificarse. Datos procesados deben ir en una carpeta aparte\nResultados de código deben guardarse en su propia carpeta (“output” para resultados y “figures” para figuras).\nLos códigos van en su propia carpeta (scr por scripts).\nSiempre modularizar el código: en lugar de un único script gigante, dividir el flujo de trabajo en scripts cortos.\nApuntar escribir a código seco: DRY do not repeat yourself"
+  },
+  {
+    "objectID": "slides/03-semana.html#escribir-buen-código",
+    "href": "slides/03-semana.html#escribir-buen-código",
+    "title": "Exploración de datos",
+    "section": "Escribir “buen” código",
+    "text": "Escribir “buen” código\n\n\n\n\n\n\nLeíble por humanos y computadoras, ordenable\n\n\n\n\nReusable\n\n\n\n\nRobusto"
+  },
+  {
+    "objectID": "slides/03-semana.html#leíble-por-humanos-y-computadoras-ordenable",
+    "href": "slides/03-semana.html#leíble-por-humanos-y-computadoras-ordenable",
+    "title": "Exploración de datos",
+    "section": "Leíble por humanos y computadoras, ordenable",
+    "text": "Leíble por humanos y computadoras, ordenable"
+  },
+  {
+    "objectID": "slides/03-semana.html#leíble-por-humanos-y-computadoras-ordenable-1",
+    "href": "slides/03-semana.html#leíble-por-humanos-y-computadoras-ordenable-1",
+    "title": "Exploración de datos",
+    "section": "Leíble por humanos y computadoras, ordenable",
+    "text": "Leíble por humanos y computadoras, ordenable"
+  },
+  {
+    "objectID": "slides/03-semana.html#leíble-por-humanos-y-computadoras-ordenable-2",
+    "href": "slides/03-semana.html#leíble-por-humanos-y-computadoras-ordenable-2",
+    "title": "Exploración de datos",
+    "section": "Leíble por humanos y computadoras, ordenable",
+    "text": "Leíble por humanos y computadoras, ordenable\n\nLinters ayudan a ver la sintáxis del código\nStylers pueden formatear código\n\n\nR: lintr y styler\nPython: ruff-check y ruff-format"
+  },
+  {
+    "objectID": "slides/03-semana.html#reusable",
+    "href": "slides/03-semana.html#reusable",
+    "title": "Exploración de datos",
+    "section": "Reusable",
+    "text": "Reusable\n\nSeparar datos de scripts\nCrear el código para usar constantes solo una vez (omega = 4.56)\nSolo una cosa a la vez, aplica para funciones y scripts\nCódigo seco (DRY) do not repear yourself"
+  },
+  {
+    "objectID": "slides/03-semana.html#robusto",
+    "href": "slides/03-semana.html#robusto",
+    "title": "Exploración de datos",
+    "section": "Robusto",
+    "text": "Robusto\n\nSi hay las suposiciones o condiciones, declararlas\nVerificar los valores antes de procesarlos.\nIdentificar excepciones.\nGenerar errores cuando no se cumplan las expectativas."
+  },
+  {
+    "objectID": "slides/03-semana.html#robusto-1",
+    "href": "slides/03-semana.html#robusto-1",
+    "title": "Exploración de datos",
+    "section": "Robusto",
+    "text": "Robusto\n\nnombre_region &lt;- function(x) {\n  regiones &lt;- data.frame(\n    numero = 1:16,\n    region = c(\n      \"Tarapacá\", \"Antofagasta\", \"Atacama\", \"Coquimbo\", \"Valparaíso\",\n      \"O'Higgins\", \"Maule\", \"Biobío\", \"La Araucanía\", \"Los Lagos\",\n      \"Aysén\", \"Magallanes\", \"Metropolitana\", \"Los Ríos\",\n      \"Arica y Parinacota\", \"Ñuble\"\n    )\n  )\n  regiones$region[match(x, regiones$numero)]\n}\n\nnombre_region(13)\n\n[1] \"Metropolitana\""
+  },
+  {
+    "objectID": "slides/03-semana.html#robusto-2",
+    "href": "slides/03-semana.html#robusto-2",
+    "title": "Exploración de datos",
+    "section": "Robusto",
+    "text": "Robusto\n\nnombre_region &lt;- function(x) {\n  regiones &lt;- data.frame(\n    numero = 1:16,\n    region = c(\n      \"Tarapacá\", \"Antofagasta\", \"Atacama\", \"Coquimbo\", \"Valparaíso\",\n      \"O'Higgins\", \"Maule\", \"Biobío\", \"La Araucanía\", \"Los Lagos\",\n      \"Aysén\", \"Magallanes\", \"Metropolitana\", \"Los Ríos\",\n      \"Arica y Parinacota\", \"Ñuble\"\n    )\n  )\n  regiones$region[match(x, regiones$numero)]\n}\n\nnombre_region(17)\n\n[1] NA"
+  },
+  {
+    "objectID": "slides/03-semana.html#github",
+    "href": "slides/03-semana.html#github",
+    "title": "Exploración de datos",
+    "section": "GitHub",
+    "text": "GitHub\nNo es sencillo aprender a usar GitHub, pero ya todos tienen su cuenta y primer repositorio! 👩🏽‍💻 👨🏽‍💻. Comencemos hoy con vocabulario 👩🏽‍🏫"
+  },
+  {
+    "objectID": "slides/03-semana.html#github-1",
+    "href": "slides/03-semana.html#github-1",
+    "title": "Exploración de datos",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/03-semana.html#github-2",
+    "href": "slides/03-semana.html#github-2",
+    "title": "Exploración de datos",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/03-semana.html#github-3",
+    "href": "slides/03-semana.html#github-3",
+    "title": "Exploración de datos",
+    "section": "GitHub",
+    "text": "GitHub\n\nRemoto: en internet (GitHub).\nLocal: en el computador.\nRepositorio = Proyecto.\nUsando GitHub, un proyecto existirá tanto como repositorio remoto como repositorio local (es decir, estará en GitHub y también en tu computador)."
+  },
+  {
+    "objectID": "slides/03-semana.html#github-4",
+    "href": "slides/03-semana.html#github-4",
+    "title": "Exploración de datos",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/03-semana.html#crear-projecto-en-rstudio",
+    "href": "slides/03-semana.html#crear-projecto-en-rstudio",
+    "title": "Exploración de datos",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/03-semana.html#crear-projecto-en-rstudio-1",
+    "href": "slides/03-semana.html#crear-projecto-en-rstudio-1",
+    "title": "Exploración de datos",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/03-semana.html#crear-projecto-en-rstudio-2",
+    "href": "slides/03-semana.html#crear-projecto-en-rstudio-2",
+    "title": "Exploración de datos",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/03-semana.html#crear-projecto-en-rstudio-3",
+    "href": "slides/03-semana.html#crear-projecto-en-rstudio-3",
+    "title": "Exploración de datos",
+    "section": "Crear projecto en RStudio",
+    "text": "Crear projecto en RStudio"
+  },
+  {
+    "objectID": "slides/03-semana.html#bibliografía-general",
+    "href": "slides/03-semana.html#bibliografía-general",
+    "title": "Exploración de datos",
+    "section": "Bibliografía general",
+    "text": "Bibliografía general\n\nThe Turing Way\nIntroduction to Earth Data Science\nData Skills for Reproducible Research\nEffective Data Science\nComputational Reproducibility\nAdvanced Reproducibility in Cancer Informatics\nReproducible Data Science"
+  },
+  {
+    "objectID": "slides/03-semana.html#paquetes",
+    "href": "slides/03-semana.html#paquetes",
+    "title": "Exploración de datos",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nggplot2 : visualización de datos\ndplyr : transformar datos\n\ntidyr : formatear los datos (ejemplo pasando de wide a long)\nreadr : importar datos de texto (csv, tsv…).\n\npurrr : programación funcional\ntibble : data frames tibble\nstringr y forcats : manipulación de cadenas de texto y factores (categorías)."
+  },
+  {
+    "objectID": "slides/03-semana.html#pandas",
+    "href": "slides/03-semana.html#pandas",
+    "title": "Exploración de datos",
+    "section": "Pandas",
+    "text": "Pandas\n\nPara efectos de este curso, asumiremos que pandas es el equivalente de tidyverse en Python\nSi quieren aprender ambos paquetes en paralelo, una guía simétrica es aprender desde R4DS y Python4DS"
+  },
+  {
+    "objectID": "slides/03-semana.html#pandas-1",
+    "href": "slides/03-semana.html#pandas-1",
+    "title": "Exploración de datos",
+    "section": "Pandas",
+    "text": "Pandas\n\nPara usar Pandas recomiendo instalar VSCode y seguir tutoriales\nEn pandas no hay operador para combinar funciones, pero existe el chaining"
   }
 ]

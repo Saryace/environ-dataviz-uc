@@ -1,0 +1,102 @@
+---
+title: Exploración de datos
+subtitle: AGP3141
+format: 
+  revealjs:
+    slide-number: c/t
+    link-external-newwindow: true   
+    link-external-icon: true        
+author:
+  - name: Sara E. Acevedo
+    orcid: 0000-0003-3203-2106
+    email: seaceved@uc.cl
+    affiliations: Pontificia Universidad Católica de Chile - CEDEUS
+footer: saryace.github.io/environ-dataviz-uc
+---
+
+## Objetivos de la clase
+
+-   Describir un análisis exploratorio (EDA)
+-   Librería principal en R: tidyverse
+-   Librerías principal en Python: Pandas 
+-   Formato tidy para datos
+
+## EDA
+
+::: incremental
+-   Preguntas sobre los datos de investigación
+-   Buscar respuestas visualizando, transformando y modelando
+-   En base a lo explorado, refinar hipótesis y preguntas anteriores
+-   Nuevas preguntas → Nuevos análisis → Nuevos modelos.
+:::
+
+## Flujo de trabajo EDA
+
+::: columns
+::: {.column width="50%"}
+![](https://posit.co/wp-content/themes/Posit/public/markdown-blogs/artist-in-residence/horst-eco-r4ds.png)
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-up}
+-   Comenzamos importando datos
+:::
+
+::: {.fragment .fade-up}
+-   Hacemos nuestro EDA transformar → visualizar → modelar
+:::
+
+::: {.fragment .fade-up}
+-   Avanzamos a la comunicación (posters, presentaciones, reportes, papers...)
+:::
+:::
+:::
+
+## Librería en R: Tidyverse
+
+Tidyverse: 
+
+* Megapaquete que contiene paquetes para el análisis datos
+* Construidos con los mismos principios
+
+La filosofía del paquete
+
+* Reusar estructuras de datos
+* Utilizar el operador `pipe %>% ` para combinar funciones
+* Pensado para "humanos"
+
+## Librería en R: Tidyverse
+
+Ejemplo: un pedazo de torta a partir de ingredientes
+
+::: {.incremental}
+- Ingredientes (harina, azúcar, etc.) 🛒
+- Mezclar en un bowl ingredientes 🥣
+- Hornear la mezcla ⏲️
+- Decorar el bizcocho 🥧
+- Cortar 🍰
+:::
+
+## Paquetes
+
+- **ggplot2** : visualización de datos 
+- **dplyr** : transformar datos  
+- **tidyr** : formatear los datos (ejemplo pasando de wide a long)
+- **readr** : importar datos de texto (csv, tsv...).  
+- **purrr** : programación funcional
+- **tibble** : data frames tibble
+- **stringr** y **forcats** : manipulación de cadenas de texto y factores (categorías).  
+
+## Pandas
+
+- Para efectos de este curso, asumiremos que `pandas` es el equivalente de `tidyverse` en Python
+- Si quieren aprender ambos paquetes en paralelo, una guía simétrica es aprender desde [R4DS](https://r4ds.hadley.nz/) y [Python4DS](https://aeturrell.github.io/python4DS/)
+
+## Pandas
+
+- Para usar Pandas recomiendo instalar VSCode y seguir tutoriales
+- En pandas no hay operador para combinar funciones, pero existe el chaining
+
+
+
+

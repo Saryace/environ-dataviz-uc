@@ -713,5 +713,110 @@
     "title": "Exploración de datos",
     "section": "Pandas",
     "text": "Pandas\n\nPara usar Pandas recomiendo instalar VSCode y seguir tutoriales\nEn pandas no hay operador para combinar funciones, pero existe el chaining"
+  },
+  {
+    "objectID": "slides/04-semana.html#objetivos-de-la-clase",
+    "href": "slides/04-semana.html#objetivos-de-la-clase",
+    "title": "Importar y tipos de datos",
+    "section": "Objetivos de la clase",
+    "text": "Objetivos de la clase\n\nRevisaremos la importación de datos a R\nConfiguración de la información\nIntroducción a la iteración (descarga múltiple)\nImportar información de páginas web"
+  },
+  {
+    "objectID": "slides/04-semana.html#tipos-de-archivos-en-general",
+    "href": "slides/04-semana.html#tipos-de-archivos-en-general",
+    "title": "Importar y tipos de datos",
+    "section": "Tipos de archivos (en general)",
+    "text": "Tipos de archivos (en general)\n\nArchivos R (.rdata, .rds)\nArchivos de texto\nArchivos de Excel\nArchivos otros softwares estadísticos (SPSS, SAS, Stata)\nArchivos geoespaciales (.netCDF, .json, .geojson, .shp)"
+  },
+  {
+    "objectID": "slides/04-semana.html#flujo-de-trabajo-eda",
+    "href": "slides/04-semana.html#flujo-de-trabajo-eda",
+    "title": "Importar y tipos de datos",
+    "section": "Flujo de trabajo EDA",
+    "text": "Flujo de trabajo EDA\n\n\n\n\n\n\nSiempre apuntamos a cargar varios archivos\n\n\n\n\nSi tienen estructura equivalente podemos iterar\n\n\n\n\nÚtil para datos geoespaciales, derivados equipos o estaciones"
+  },
+  {
+    "objectID": "slides/04-semana.html#librería-en-r-tidyverse",
+    "href": "slides/04-semana.html#librería-en-r-tidyverse",
+    "title": "Importar y tipos de datos",
+    "section": "Librería en R: Tidyverse",
+    "text": "Librería en R: Tidyverse\nTidyverse:\n\nMegapaquete que contiene paquetes para el análisis datos\nConstruidos con los mismos principios\n\nLa filosofía del paquete\n\nReusar estructuras de datos\nUtilizar el operador pipe %&gt;% para combinar funciones\nPensado para “humanos”"
+  },
+  {
+    "objectID": "slides/04-semana.html#librería-en-r-tidyverse-1",
+    "href": "slides/04-semana.html#librería-en-r-tidyverse-1",
+    "title": "Importar y tipos de datos",
+    "section": "Librería en R: Tidyverse",
+    "text": "Librería en R: Tidyverse\nEjemplo: un pedazo de torta a partir de ingredientes\n\nIngredientes (harina, azúcar, etc.) 🛒\nMezclar en un bowl ingredientes 🥣\nHornear la mezcla ⏲️\nDecorar el bizcocho 🥧\nCortar 🍰"
+  },
+  {
+    "objectID": "slides/04-semana.html#paquetes",
+    "href": "slides/04-semana.html#paquetes",
+    "title": "Importar y tipos de datos",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nggplot2 : visualización de datos\ndplyr : transformar datos\n\ntidyr : formatear los datos (ejemplo pasando de wide a long)\nreadr : importar datos de texto (csv, tsv…).\n\npurrr : programación funcional\ntibble : data frames tibble\nstringr y forcats : manipulación de cadenas de texto y factores (categorías)."
+  },
+  {
+    "objectID": "slides/04-semana.html#pandas",
+    "href": "slides/04-semana.html#pandas",
+    "title": "Importar y tipos de datos",
+    "section": "Pandas",
+    "text": "Pandas\n\nPara efectos de este curso, asumiremos que pandas es el equivalente de tidyverse en Python\nSi quieren aprender ambos paquetes en paralelo, una guía simétrica es aprender desde R4DS y Python4DS"
+  },
+  {
+    "objectID": "slides/04-semana.html#pandas-1",
+    "href": "slides/04-semana.html#pandas-1",
+    "title": "Importar y tipos de datos",
+    "section": "Pandas",
+    "text": "Pandas\n\nPara usar Pandas recomiendo instalar VSCode y seguir tutoriales\nEn pandas no hay operador para combinar funciones, pero existe el chaining"
+  },
+  {
+    "objectID": "slides/04-semana.html#configuración-local",
+    "href": "slides/04-semana.html#configuración-local",
+    "title": "Importar y tipos de datos",
+    "section": "Configuración local",
+    "text": "Configuración local\nAjustes del computador que hereda RStudio:\n\nIdioma y localización (fechas, decimales, encoding)\nPermisos y rutas de archivos (ejemplo: solo lectura)\nRecursos del sistema (CPU, memoria, etc.)"
+  },
+  {
+    "objectID": "slides/04-semana.html#configuración-rstudio",
+    "href": "slides/04-semana.html#configuración-rstudio",
+    "title": "Importar y tipos de datos",
+    "section": "Configuración RStudio",
+    "text": "Configuración RStudio\n\nOpciones de RStudio: versión de R , apariencia y addins\nConfig global vs. de proyecto: RStudio permite guardar .Rproj con configuraciones distintas (encoding diferentes)"
+  },
+  {
+    "objectID": "slides/04-semana.html#mensaje-tenerlo-presente",
+    "href": "slides/04-semana.html#mensaje-tenerlo-presente",
+    "title": "Importar y tipos de datos",
+    "section": "Mensaje: tenerlo presente",
+    "text": "Mensaje: tenerlo presente\n\nEn Windows en español, el sistema trae (,) como separador decimal.\nread.csv() interpretará (1.23) como texto.\nSolución en el sistema: cambiar configuración regional.\nSolución en RStudio: definir options(readr.default_locale = locale(decimal_mark = “.”)) o usar read.csv2()"
+  },
+  {
+    "objectID": "slides/04-semana.html#necesito-datos",
+    "href": "slides/04-semana.html#necesito-datos",
+    "title": "Importar y tipos de datos",
+    "section": "Necesito datos:",
+    "text": "Necesito datos:\n\nDatos de estaciones meteorológicas\nImáneges remote sensing (GGE)\nEl equipo de mi laboratorio (automatizado)\nResultados de laboratorios exteros"
+  },
+  {
+    "objectID": "slides/04-semana.html#a-veces-podemos-usar-estrategias-como",
+    "href": "slides/04-semana.html#a-veces-podemos-usar-estrategias-como",
+    "title": "Importar y tipos de datos",
+    "section": "A veces podemos usar estrategias como",
+    "text": "A veces podemos usar estrategias como\n\nEstructuras homogéneas (mi equipo siempre entrega el mismo excel)\nNombres de archivo (la imagen tiene la fecha y tipo de dato)\nBuscar tipos de datos ya agrupados (netCDF, multiomics, etc.)\nPensar en estructuras propias"
+  },
+  {
+    "objectID": "slides/04-semana.html#introducción-a-las-listas-y-purrr",
+    "href": "slides/04-semana.html#introducción-a-las-listas-y-purrr",
+    "title": "Importar y tipos de datos",
+    "section": "Introducción a las listas y purrr 🐱",
+    "text": "Introducción a las listas y purrr 🐱\n\nPaquete purrr para programación funcional\nQuiero todos los datos !"
+  },
+  {
+    "objectID": "slides/04-semana.html#introducción-a-webscraping",
+    "href": "slides/04-semana.html#introducción-a-webscraping",
+    "title": "Importar y tipos de datos",
+    "section": "Introducción a webscraping",
+    "text": "Introducción a webscraping\n\nSolo una pincelada 🖌️\nA veces mis datos están ahí y debo explorar un poco más allá"
   }
 ]

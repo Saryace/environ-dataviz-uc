@@ -1,0 +1,107 @@
+---
+title: Importar y tipos de datos
+subtitle: AGP3141
+format: 
+  revealjs:
+    slide-number: c/t
+    link-external-newwindow: true   
+    link-external-icon: true        
+author:
+  - name: Sara E. Acevedo
+    orcid: 0000-0003-3203-2106
+    email: seaceved@uc.cl
+    affiliations: Pontificia Universidad Católica de Chile - CEDEUS
+footer: saryace.github.io/environ-dataviz-uc
+---
+
+## Objetivos de la clase
+
+-   Revisaremos la importación de datos a R
+-   Configuración de la información
+-   Introducción a la iteración (descarga múltiple)
+-   Importar información de páginas web
+
+
+## Tipos de archivos (en general)
+
+::: incremental
+
+- Archivos R (.rdata, .rds) 
+- Archivos de texto 
+- Archivos de Excel
+- Archivos otros softwares estadísticos (SPSS, SAS, Stata)
+- Archivos geoespaciales (.netCDF, .json, .geojson, .shp)
+:::
+
+## Flujo de trabajo EDA
+
+::: columns
+::: {.column width="50%"}
+![](figures/map_dfr.png)
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-up}
+-   Siempre apuntamos a cargar varios archivos
+:::
+
+::: {.fragment .fade-up}
+-   Si tienen estructura equivalente podemos iterar
+:::
+
+::: {.fragment .fade-up}
+-   Útil para datos geoespaciales, derivados equipos o estaciones
+:::
+:::
+:::
+
+## Configuración local 
+
+Ajustes del **computador** que hereda RStudio:
+
+* Idioma y localización (fechas, decimales, encoding)
+* Permisos y rutas de archivos (ejemplo: solo lectura)
+* Recursos del sistema (CPU, memoria, etc.)
+
+## Configuración RStudio
+
+* Opciones de RStudio: versión de R , apariencia y addins
+* Config global vs. de proyecto: RStudio permite guardar .Rproj con configuraciones distintas (encoding diferentes)
+
+## Mensaje: tenerlo presente
+
+* En Windows en español, el sistema trae (,) como separador decimal.
+* read.csv() interpretará (1.23) como texto.
+* Solución en el sistema: cambiar configuración regional.
+* Solución en RStudio: definir options(readr.default_locale = locale(decimal_mark = ".")) o usar **read.csv2()**  
+
+# [{{< fa brands r-project size=1.4xl >}} necesito datos :brain: :fire:]{style="color:white;float:right;text-align:right;"} {background-color="#56cc9d"}
+
+## Necesito datos:
+
+- Datos de estaciones meteorológicas 
+- Imáneges remote sensing (GGE)
+- El equipo de mi laboratorio (automatizado)
+- Resultados de laboratorios externos
+
+## A veces podemos usar estrategias como
+
+- Estructuras homogéneas (mi equipo siempre entrega el mismo excel)
+- Nombres de archivo (la imagen tiene la fecha y tipo de dato)
+- Buscar tipos de datos ya agrupados (netCDF, multiomics, etc.)
+- Pensar en estructuras propias
+
+## Introducción a las listas y purrr 🐱
+
+- Paquete purrr para programación funcional
+- Quiero todos los datos !
+
+## Introducción a webscraping
+
+- Solo una pincelada 🖌️
+- A veces mis datos están ahí y debo explorar un poco más allá
+
+
+
+
+

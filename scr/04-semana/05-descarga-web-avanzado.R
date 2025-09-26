@@ -31,5 +31,5 @@ descargar_temp_meteochile <- function(estacion, anio) {
 }
 
 # Ejemplo: estación 200006, año 2023
-descargar_temp_meteochile("200006", 2023)
+descargar_temp_meteochile("200006", 2022)
 

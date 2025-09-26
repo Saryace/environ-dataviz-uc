@@ -25,7 +25,7 @@ library(terra) # ggplot + ncdf4 + terra para netCDF
 
 # Cargar datos ------------------------------------------------------------
 
-netcdf_nieve <- rast("datos/andes_201804_eurac.nc") # abril 2018
+netcdf_nieve <- rast("scr/datos/andes_201804_eurac.nc") # abril 2018
 
 intervalos <- terra::time(netcdf_nieve) # datos diarios
 
@@ -51,7 +51,7 @@ sca_promedio <- global(netcdf_nieve > 0, fun = mean, na.rm = TRUE)[,1]
 # Carguemos 04 y 07 -------------------------------------------------------
 # funcion list.files
 archivos_nc <- list.files(
-  path = "datos",      # carpeta
+  path = "scr/datos",      # carpeta
   pattern = "\\.nc$",  # regex: termina en .nc, expresiones regulares!
   full.names = TRUE
 )
@@ -68,6 +68,14 @@ prom_swe_sca <- purrr::map_dfr(archivos_nc, ~{
     origen  = basename(.x) #nombre archivos
   )
 })
+
+
+# tibble ejemplo ----------------------------------------------------------
+
+mascotas <- tibble(
+  nombre_mascota = c("Cielo", "Mili", "Bunuelo"),
+  edad_anio = c(11, 6, 0.6)
+)
 
 
 

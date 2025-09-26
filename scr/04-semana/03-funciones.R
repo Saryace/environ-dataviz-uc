@@ -15,10 +15,15 @@ multiplicar_por_10 <- function(x) {
 }
 
 multiplicar_por_10(3.5)
+multiplicar_por_10("viva chile")
 
 # Creo un vector ----------------------------------------------------------
 
 vector <- 1:10 # operador : inicio:fin con enteros
+
+vector_ejemplo <- c("arica","t", "antofa", "at", 13)
+
+muestras_lab <- c("001","002","003")
 
 # Creo una lista
 
@@ -38,6 +43,8 @@ purrr::map(vector, multiplicar_por_10) # 😔 una lista?
 purrr::map_dbl(vector, multiplicar_por_10) # 🙂 funciona!
 
 purrr::map(lista, multiplicar_por_10) # 🙂 funciona con listas!
+
+multiplicar_por_10(lista)
 
 # Funciones anónimas ------------------------------------------------------
 
@@ -86,7 +93,7 @@ plots_por_especie <- map(especies, ~ {
 })
 
 # ejemplo: tercer elemento de la lista
-plots_por_especie[[3]]
+plots_por_especie[[1]]
 
 
 

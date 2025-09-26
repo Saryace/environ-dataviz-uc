@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.7.33">
 
   <meta name="author" content="Sara E. Acevedo">
-  <title>Visualización y Análisis de Datos Medioambientales – Importar y tipos de datos</title>
+  <title>Visualización y Análisis de Datos Medioambientales – ggplot2 y pivot</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -127,7 +127,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Importar y tipos de datos</h1>
+  <h1 class="title">ggplot2 y pivot</h1>
   <p class="subtitle">AGP3141</p>
 
 <div class="quarto-title-authors">
@@ -148,109 +148,53 @@ Sara E. Acevedo <a href="https://orcid.org/0000-0003-3203-2106" class="quarto-ti
 <section id="objetivos-de-la-clase" class="slide level2">
 <h2>Objetivos de la clase</h2>
 <ul>
-<li>Revisaremos la importación de datos a R</li>
-<li>Configuración de la información</li>
-<li>Introducción a la iteración (descarga múltiple)</li>
-<li>Importar información de páginas web</li>
+<li>Revisaremos los conceptos básicos de formatos para visualización</li>
+<li>Buena visualización (?)</li>
+<li>Continuaremos explorando iteración (map)</li>
+<li>Aprenderemos a usar funciones pivot</li>
+<li>Ejemplos avanzados de estadística y ggplot2</li>
 </ul>
 </section>
-<section id="tipos-de-archivos-en-general" class="slide level2">
-<h2>Tipos de archivos (en general)</h2>
+<section id="una-buena-visualización" class="slide level2">
+<h2>Una buena visualización (?)</h2>
 <ul>
-<li class="fragment">Archivos R (.rdata, .rds)</li>
-<li class="fragment">Archivos de texto</li>
-<li class="fragment">Archivos de Excel</li>
-<li class="fragment">Archivos otros softwares estadísticos (SPSS, SAS, Stata)</li>
-<li class="fragment">Archivos geoespaciales (.netCDF, .json, .geojson, .shp)</li>
+<li>Lectura <strong>“obligatoria”</strong> <a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a></li>
+<li><a href="https://clauswilke.com/dataviz/directory-of-visualizations.html">Directorio visualizaciones</a></li>
+<li><a href="https://clauswilke.com/dataviz/telling-a-story.html">Telling a story</a></li>
 </ul>
 </section>
-<section id="flujo-de-trabajo-eda" class="slide level2">
-<h2>Flujo de trabajo EDA</h2>
+<section id="formato-tidy" class="slide level2">
+<h2>Formato tidy</h2>
+<ul>
+<li>Cada variable forma su propia columna</li>
+<li>Cada observación forma una fila</li>
+<li>Y cada celda es un único valor</li>
+</ul>
+<p><img data-src="figures/tidy_data.png" alt="tidy data"> Más info en R4DS <a href="https://r4ds.had.co.nz/tidy-data.html">tidy data</a></p>
+</section>
+<section id="formatos-long-y-wide" class="slide level2">
+<h2>Formatos long y wide</h2>
+<ul>
+<li>El formato <em>wide</em> es el formato típico tidy rectangular</li>
+<li>El formato <em>long</em> se usa para agrupar</li>
+<li>El formato <em>long</em> se usa para visualización de datos con <code>ggplot2</code> y hacer estadística</li>
+</ul>
+</section>
+<section id="es-común-intercambiar-entre-formatos" class="slide level2">
+<h2>Es común intercambiar entre formatos</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="figures/map_dfr.png"></p>
-</div><div class="column" style="width:50%;">
-<div class="fragment fade-up">
+<div class="column" style="width:40%;">
+<p><img data-src="figures/pivot_wider_longer.gif"></p>
+</div><div class="column" style="width:60%;">
 <ul>
-<li>Siempre apuntamos a cargar varios archivos</li>
+<li><code>pivot_longer()</code> transforma a formato long</li>
+<li><code>pivot_wider()</code> transforma a formato wide</li>
+<li><a href="https://github.com/gadenbuie/tidyexplain">Acá</a> más material dinámico por Garrick Aden-Buie</li>
 </ul>
-</div>
-<div class="fragment fade-up">
-<ul>
-<li>Si tienen estructura equivalente podemos iterar</li>
-</ul>
-</div>
-<div class="fragment fade-up">
-<ul>
-<li>Útil para datos geoespaciales, derivados equipos o estaciones</li>
-</ul>
-</div>
 </div></div>
-</section>
-<section id="configuración-local" class="slide level2">
-<h2>Configuración local</h2>
-<p>Ajustes del <strong>computador</strong> que hereda RStudio:</p>
-<ul>
-<li>Idioma y localización (fechas, decimales, encoding)</li>
-<li>Permisos y rutas de archivos (ejemplo: solo lectura)</li>
-<li>Recursos del sistema (CPU, memoria, etc.)</li>
-</ul>
-</section>
-<section id="configuración-rstudio" class="slide level2">
-<h2>Configuración RStudio</h2>
-<ul>
-<li>Opciones de RStudio: versión de R , apariencia y addins</li>
-<li>Config global vs.&nbsp;de proyecto: RStudio permite guardar .Rproj con configuraciones distintas (encoding diferentes)</li>
-</ul>
-</section>
-<section id="mensaje-tenerlo-presente" class="slide level2">
-<h2>Mensaje: tenerlo presente</h2>
-<ul>
-<li>En Windows en español, el sistema trae (,) como separador decimal.</li>
-<li>read.csv() interpretará (1.23) como texto.</li>
-<li>Solución en el sistema: cambiar configuración regional.</li>
-<li>Solución en RStudio: definir options(readr.default_locale = locale(decimal_mark = “.”)) o usar <strong>read.csv2()</strong></li>
-</ul>
-</section>
-<section>
-<section id="necesito-datos-brain-fire" class="title-slide slide level1 center" data-background-color="#56cc9d">
-<h1><span style="color:white;float:right;text-align:right;">{{&lt; fa brands r-project size=1.4xl &gt;}} necesito datos :brain: :fire:</span></h1>
-
-</section>
-<section id="necesito-datos" class="slide level2">
-<h2>Necesito datos:</h2>
-<ul>
-<li>Datos de estaciones meteorológicas</li>
-<li>Imáneges remote sensing (GGE)</li>
-<li>El equipo de mi laboratorio (automatizado)</li>
-<li>Resultados de laboratorios externos</li>
-</ul>
-</section>
-<section id="a-veces-podemos-usar-estrategias-como" class="slide level2">
-<h2>A veces podemos usar estrategias como</h2>
-<ul>
-<li>Estructuras homogéneas (mi equipo siempre entrega el mismo excel)</li>
-<li>Nombres de archivo (la imagen tiene la fecha y tipo de dato)</li>
-<li>Buscar tipos de datos ya agrupados (netCDF, multiomics, etc.)</li>
-<li>Pensar en estructuras propias</li>
-</ul>
-</section>
-<section id="introducción-a-las-listas-y-purrr" class="slide level2">
-<h2>Introducción a las listas y purrr 🐱</h2>
-<ul>
-<li>Paquete purrr para programación funcional</li>
-<li>Quiero todos los datos !</li>
-</ul>
-</section>
-<section id="introducción-a-webscraping" class="slide level2">
-<h2>Introducción a webscraping</h2>
-<ul>
-<li>Solo una pincelada 🖌️</li>
-<li>A veces mis datos están ahí y debo explorar un poco más allá</li>
-</ul>
 
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

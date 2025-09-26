@@ -26,7 +26,7 @@ drive_find(pattern = "\\bSession\\b")
 
 drive_mkdir("carpeta_nueva_3")
 
-drive_upload("datos/ejemplo_coma_decimal.csv",
+drive_upload("scr/datos/ejemplo_coma_decimal.csv",
              path = '~/carpeta_nueva_3/',
              overwrite = TRUE)
 

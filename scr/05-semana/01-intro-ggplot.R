@@ -61,17 +61,19 @@ ggplot(mapping = aes(x = pp_mm, y = hr_perc)) # mas tiene que ir aca
 
 # los geom se pueden acumular ---------------------------------------------
 
-ggplot(data = pp_vs_hr,
+ggplot(data = pp_vs_hr_reciclaje,
        mapping = aes(x = pp_mm, y = hr_perc)) +
   geom_point() +
   geom_vline(xintercept = 3) +
-  geom_hline(yintercept = 85)
+  geom_hline(yintercept = 85) +
+  theme_dark() +
+  labs(title = "hola")
 
 # el orden importa
 
 # la funcion theme() controla la "decoracion" -----------------------------
 
-ggplot(data = pp_vs_hr,
+ggplot(data = pp_vs_hr_reciclaje,
        mapping = aes(x = pp_mm, y = hr_perc)) +
   geom_point() +
   geom_hline(yintercept = 85) +
@@ -80,21 +82,21 @@ ggplot(data = pp_vs_hr,
 
 # Cada geom es distinto y tiene diferentes argumentos
 
-ggplot(data = pp_vs_hr,
+ggplot(data = pp_vs_hr_tb,
        mapping = aes(x = pp_mm, y = hr_perc)) +
   geom_bar() # veamos el error
 
-ggplot(data = pp_vs_hr,
+ggplot(data = pp_vs_hr_tb,
        mapping = aes(y = tipo)) +
   geom_bar() # hace un conteo
 
 # comparemos geom_col vs geom_bar -----------------------------------------
 
-ggplot(data = pp_vs_hr,
+ggplot(data = pp_vs_hr_tb,
        mapping = aes(x = pp_mm, y = hr_perc)) +
   geom_col()
 
-ggplot(data = pp_vs_hr,
+ggplot(data = pp_vs_hr_tb,
        mapping = aes(x = tipo, y = hr_perc)) +
   geom_col()
 

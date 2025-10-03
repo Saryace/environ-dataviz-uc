@@ -79,7 +79,7 @@ pinguino_largo_simple %>%
 # Creamos otro long -------------------------------------------------------
 
 pinguino_largo_simple <- penguins %>%
-  mutate(id = row_number()) |>
+  mutate(id = row_number()) %>%
   pivot_longer(contains("_"))
 
 pinguino_largo_simple

@@ -15,7 +15,7 @@ datos_pinguinos_anidados <-
 # Creamos una funcion -----------------------------------------------------
 
 lm_masa_aleta <- function(datos){
-  lm(masa_corporal_g ~ largo_aleta_mm, data = datos)
+  lm(body_mass_g ~ flipper_length_mm, data = datos)
 }
 
 # map(datos_pinguinos_anidados, lm_masa_aleta) ### error explosivo!
@@ -51,7 +51,7 @@ datos_stat_limpios <- datos_modelos %>%
     pval = signif(p.value, 2),#  redondeo a dos sign.
     etiqueta = glue("R² = {r_cuadrado}, p = {pval}") # redondeo a dos sign.
   ) %>%
-  select(isla, sexo , etiqueta)
+  select(island, sex, etiqueta)
 
 # Podemos usar los datos que extraimos antes en un ggplot -----------------
 
@@ -73,14 +73,14 @@ penguins %>%
 # Otra forma, crear funciones ggplot --------------------------------------
 
 ggplot_funcion_corr = function(x, y) {
-  ggplot(datos_pinguinos %>% drop_na(sexo), aes(x = .data[[x]], y = .data[[y]]) ) +
+  ggplot(penguins %>% drop_na(sex), aes(x = .data[[x]], y = .data[[y]]) ) +
     geom_point() +
     geom_smooth(method = "lm", se = FALSE) +
     theme_bw()
 }
 
 ggplot_funcion_boxplot = function(x, y) {
-  ggplot(datos_pinguinos %>% drop_na(sexo), aes(x = .data[[x]], y = .data[[y]]) ) +
+  ggplot(penguins %>% drop_na(sex), aes(x = .data[[x]], y = .data[[y]]) ) +
     geom_boxplot() +
     theme_bw()
 }
@@ -89,21 +89,21 @@ ggplot_funcion_boxplot = function(x, y) {
 
 ggplot_funcion_corr(x = "flipper_length_mm", y = "body_mass_g")
 
-ggplot_funcion_corr(x = "flipper_length_mm", y = "alto_pico_mm")
+ggplot_funcion_corr(x = "flipper_length_mm", y = "bill_length_mm")
 
 # Ahora para boxplot ------------------------------------------------------
 
-ggplot_funcion_boxplot(x = "sexo", y = "body_mass_g")
+ggplot_funcion_boxplot(x = "sex", y = "body_mass_g")
 
-ggplot_funcion_boxplot(x = "isla", y = "body_mass_g")
+ggplot_funcion_boxplot(x = "island", y = "body_mass_g")
 
 
 # Veamos por isla y sexo --------------------------------------------------
 
-boxplots <- map(c("especie","isla","sexo"), #vector, .x en la funcion map
+boxplots <- map(c("species","island","sex"), #vector, .x en la funcion map
                 ~ggplot_funcion_boxplot(.x, "body_mass_g")) #.f
 
-boxplots[2] # son tres
+boxplots[3] # son tres
 
 # los nombres de archivo los definimos para guardar los datos
 

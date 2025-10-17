@@ -1,0 +1,60 @@
+---
+title: joins 
+subtitle: AGP3141
+format: 
+  revealjs:
+    slide-number: c/t
+    link-external-newwindow: true   
+    link-external-icon: true        
+author:
+  - name: Sara E. Acevedo
+    orcid: 0000-0003-3203-2106
+    email: seaceved@uc.cl
+    affiliations: Pontificia Universidad Católica de Chile - CEDEUS
+footer: saryace.github.io/environ-dataviz-uc
+---
+
+## Objetivos de la clase
+
+-   Revisaremos los conceptos básicos de formatos para visualización
+-   Buena visualización (?)
+-   Continuaremos explorando iteración (map)
+-   Aprenderemos a usar funciones pivot
+-   Ejemplos avanzados de estadística y ggplot2
+
+## Una buena visualización (?)
+
+-   Lectura **"obligatoria"** [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+-   [Directorio visualizaciones](https://clauswilke.com/dataviz/directory-of-visualizations.html)
+-   [Telling a story](https://clauswilke.com/dataviz/telling-a-story.html)
+
+## Formato tidy
+
+* Cada variable forma su propia columna 
+* Cada observación forma una fila
+* Y cada celda es un único valor
+
+![tidy data](figures/tidy_data.png)
+Más info en R4DS [tidy data](https://r4ds.had.co.nz/tidy-data.html)
+
+## Formatos long y wide
+
+* El formato *wide* es el formato típico tidy rectangular
+* El formato *long* se usa para agrupar 
+* El formato *long* se usa para visualización de datos con `ggplot2` y hacer estadística
+
+## Es común intercambiar entre formatos
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](figures/pivot_wider_longer.gif)
+:::
+
+::: {.column width="60%"}
+* `pivot_longer()` transforma a formato long
+* `pivot_wider()` transforma a formato wide
+* [Acá](https://github.com/gadenbuie/tidyexplain) más material dinámico por Garrick Aden-Buie
+:::
+
+::::

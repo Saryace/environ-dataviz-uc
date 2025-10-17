@@ -18,9 +18,9 @@ favoritos %>%
 
 # anti --------------------------------------------------------------------
 
-anti_join(starwars_nombre, favoritos)
+anti_join(starwars_nombre, favoritos) # revisar
 
-anti_join(favoritos, starwars_nombre)
+anti_join(favoritos, starwars_nombre) # revisaer diferencias
 
 # left y right ------------------------------------------------------------
 

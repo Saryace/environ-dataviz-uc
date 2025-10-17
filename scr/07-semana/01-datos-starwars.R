@@ -29,7 +29,7 @@ fav_starwars # Dataset modificado https://fivethirtyeight.com/features/americas-
 
 guaguas %>%
   filter(nombre == "Luke" | nombre == "Leia") %>% # esto es "Luke O Leia"
-  group_by(nombre) %>%
+  group_by(nombre, anio) %>% # revisar agrupando de formas diferentes
   count()
 
 # Más personajes: a veces es mejor usar vector

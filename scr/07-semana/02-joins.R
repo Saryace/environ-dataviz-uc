@@ -35,6 +35,7 @@ guaguas %>%
   arrange(desc(favorito_pct))
 
 # Final plot --------------------------------------------------------------
+
 guaguas %>%
   right_join(favoritos) %>%
   ggplot(aes(x = anio, y = n)) +

@@ -8,7 +8,6 @@ library(scales)
 library(ggspatial)
 library(tidyverse)
 library(janitor)
-library(patchwork)
 
 # Metropolitana -----------------------------------------------------------
 
@@ -33,18 +32,23 @@ metro_areaverde <- metropolitana %>%
 
 mapa <- ggplot() +
   geom_sf(data = metro_areaverde,
-          aes(color = median_superficie_de_area_verde_por_habitante,
-              fill = median_superficie_de_area_verde_por_habitante))
+          aes(fill = median_superficie_de_area_verde_por_habitante),
+          color = "grey90") +
+  scale_fill_viridis(begin = 0, end = 0.8)
 
 # Ahora barras ------------------------------------------------------------
 
 barras <- metro_areaverde %>%
+  drop_na(median_superficie_de_area_verde_por_habitante) %>%
   ggplot(
-    aes(x = comuna,
+    aes(x = fct_reorder(comuna,median_superficie_de_area_verde_por_habitante),
         y = median_superficie_de_area_verde_por_habitante,
-        color = median_superficie_de_area_verde_por_habitante,
         fill = median_superficie_de_area_verde_por_habitante)
-  ) + geom_col()
+  ) +
+  geom_col() +
+  labs(x = NULL, y = "Area verde por hab (nos se)") +
+  scale_fill_viridis(begin = 0, end = 0.8) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
 
 # Patchwork ---------------------------------------------------------------
 
